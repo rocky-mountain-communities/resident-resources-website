@@ -2,6 +2,7 @@ import Card from '@/app/components/Card';
 import CurrentDate from '@/app/components/CurrentDate';
 import FeatureHighlight from '@/app/components/FeatureContent';
 import { scheduleItems } from '@/content/infoSection';
+import dayjs from 'dayjs';
 
 const styles = {
   infoSection: 'grid md:grid-cols-3 gap-6',
@@ -15,11 +16,16 @@ export default function InfoSection({
   communityName,
   headerImagePath,
   announcementMessage,
+  schedule,
 }: {
   communityName: string;
   headerImagePath: string;
   announcementMessage: string;
+  schedule: object;
 }) {
+  const currentDate = dayjs().format('YYYY-MM-DD');
+  const scheduleItems = schedule[currentDate as keyof typeof schedule] || [];
+
   return (
     <div className={styles.infoSection}>
       <Card className={styles.featureCard}>
