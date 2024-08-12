@@ -63,9 +63,12 @@ export const resourceCategories = [
     id: 'youth-and-education',
     name: 'Youth & Education',
     topLinks: [
-      { name: 'Childcare Assistance & Programs', link: 'example.com' },
-      { name: 'Learning Programs', link: 'example2.com' },
-      { name: 'GED Testing', link: 'example3.com' },
+      {
+        name: 'Childcare Assistance & Programs',
+        link: '/resources/youth-and-education',
+      },
+      { name: 'Learning Programs', link: '/resources/youth-and-education' },
+      { name: 'GED Testing', link: '/resources/youth-and-education' },
     ],
   },
   // {
@@ -81,12 +84,9 @@ export const resourceCategories = [
     id: 'additional-resources',
     name: 'Additional Resources',
     topLinks: [
-      {
-        name: 'Clothing',
-        link: 'https://drive.google.com/file/d/1aqmoxXj6rGWZPFBNp51aLV1aAfXvFf0P/view?usp=sharing',
-      },
-      { name: 'LGBTQ', link: 'example2.com' },
-      { name: 'Seniors', link: 'example3.com' },
+      { name: 'Clothing', link: '/resources/additional-resources' },
+      { name: 'LGBTQ', link: '/resources/additional-resources' },
+      { name: 'Seniors', link: '/resources/additional-resources' },
     ],
   },
 ];
