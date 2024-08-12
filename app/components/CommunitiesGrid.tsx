@@ -1,9 +1,13 @@
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 
 export default function CommunitiesGrid() {
+  const { t } = useTranslation();
   return (
     <div>
-      <h1 className='text-white text-xl pb-4'>FIND YOUR COMMUNITY</h1>
+      <h1 className='text-white text-xl pb-4'>
+        {t('communitiesGrid.heading')}
+      </h1>
       <div className='grid grid-cols-1 gap-4 md:grid-cols-3 text-center'>
         <Link
           href='/arroyo-village'

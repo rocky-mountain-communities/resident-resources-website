@@ -1,0 +1,23 @@
+{
+  "common": {
+    "english": "Inglés",
+    "spanish": "Español",
+    "englishAbbreviation": "EN",
+    "spanishAbbreviation": "ES"
+  },
+  "landingPage": {
+    "heading": "BIENVENIDO AL CENTRO DE RECURSOS PARA RESIDENTES DE RMC",
+    "english": "Inglés",
+    "spanish": "Español",
+    "englishAbbreviation": "EN",
+    "spanishAbbreviation": "ES"
+  },
+  "communitiesGrid": {
+    "heading": "ENCUENTRA TU COMUNIDAD"
+  },
+  "contactResidentServices": {
+    "heading": "CONTACTA SERVICIOS PARA RESIDENTES",
+    "residentServicesDropBox": "Buzón de servicios para residentes",
+    "dropBoxLocations": "Ubicado en todas las propiedades"
+  }
+}

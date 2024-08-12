@@ -1,0 +1,23 @@
+{
+  "common": {
+    "english": "English",
+    "spanish": "Spanish",
+    "englishAbbreviation": "EN",
+    "spanishAbbreviation": "ES"
+  },
+  "landingPage": {
+    "heading": "WELCOME TO THE RMC RESIDENT RESOURCE CENTER",
+    "english": "English",
+    "spanish": "Spanish",
+    "englishAbbreviation": "EN",
+    "spanishAbbreviation": "ES"
+  },
+  "communitiesGrid": {
+    "heading": "FIND YOUR COMMUNITY"
+  },
+  "contactResidentServices": {
+    "heading": "CONTACT RESIDENT SERVICES",
+    "residentServicesDropBox": "Resident Services Drop-box",
+    "dropBoxLocations": "Located on All Properties"
+  }
+}
