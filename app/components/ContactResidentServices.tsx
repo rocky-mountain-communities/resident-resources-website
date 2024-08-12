@@ -1,4 +1,4 @@
-import contactServices from '@/content/contact-services.json';
+import contactServices from '@/content/contacts/resident-services.json';
 import Card from '@/app/components/Card';
 
 export default function ContactResidentServices() {

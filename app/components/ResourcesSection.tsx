@@ -13,16 +13,18 @@ export interface Resource {
 
 export interface ResourcesSectionProps {
   title: string;
+  path: string;
   resources: Resource[];
 }
 
 export default function ResourcesSection({
   title,
+  path,
   resources,
 }: ResourcesSectionProps) {
   return (
     <div>
-      <h2 id={title} className='font-bold text-xl my-4'>
+      <h2 id={`${path}`} className='font-bold text-xl my-4'>
         {capitalizeWords(title)}
       </h2>
       <div>

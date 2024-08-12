@@ -1,5 +1,5 @@
 export const FeatureHighlightContent = {
-  imagePath: '/resident-resources-website/placeholder.png',
+  imagePath: '/placeholder.png',
   imageAlt: 'Computer Lab Now Open',
   // description:
   //   'Join us in the computer lab, in the Community Building Room 2. Check for hours.',

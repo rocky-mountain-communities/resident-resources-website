@@ -39,6 +39,7 @@ export default async function CategoriesPage({
           {category.resources.map((resource) => (
             <div key={resource.name}>
               <ResourcesSection
+                path={resource.path}
                 title={resource.name}
                 resources={resource.data}
               />

@@ -17,9 +17,11 @@ export async function getResources() {
           .map(async (fileName) => {
             const filePath = path.join(dirPath, fileName);
             const fileContents = await fs.readFile(filePath, 'utf8');
-            const name = fileName.replace(/\.json$/, '').replace(/-/g, ' ');
+            const basePath = fileName.replace(/\.json$/, '');
+            const name = basePath.replace(/-/g, ' ');
             const data = JSON.parse(fileContents);
             return {
+              path: basePath,
               name: name,
               data: data,
             };

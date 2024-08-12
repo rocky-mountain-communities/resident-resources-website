@@ -3,18 +3,36 @@ export const resourceCategories = [
     id: 'covid-19',
     name: 'COVID-19',
     topLinks: [
-      { name: 'Vaccines & Tests', link: 'https://drive.google.com/file/d/17NuHQgMCEJ_sz8Ws4bqpUttXpzC4PY1H/view?usp=sharing' },
-      { name: 'Symptoms & Prevention', link: 'example2.com' },
-      { name: 'Covid Stats in Denver', link: 'example3.com' },
+      {
+        name: 'Vaccines & Tests',
+        link: '/resources/covid-19#vaccines-tests',
+      },
+      {
+        name: 'Symptoms & Prevention',
+        link: '/resources/covid-19#symptoms-prevention',
+      },
+      {
+        name: 'Covid Stats in Denver',
+        link: '/resources/covid-19#denver-covid-stats',
+      },
     ],
   },
   {
     id: 'housing-stability',
     name: 'Housing Stability',
     topLinks: [
-      { name: 'Emergency Housing', link: 'example.com' },
-      { name: 'Rent Assistance', link: 'example2.com' },
-      { name: 'Utilities Assistance', link: 'example3.com' },
+      {
+        name: 'Emergency Housing',
+        link: '/resources/housing-stability#emergency-housing',
+      },
+      {
+        name: 'Rent Assistance',
+        link: '/resources/housing-stability#rent-assistance',
+      },
+      {
+        name: 'Utilities Assistance',
+        link: '/resources/housing-stability#utilities-assistance',
+      },
     ],
   },
   {
@@ -57,19 +75,12 @@ export const resourceCategories = [
     id: 'additional-resources',
     name: 'Additional Resources',
     topLinks: [
-      { name: 'Clothing', link: 'https://drive.google.com/file/d/1aqmoxXj6rGWZPFBNp51aLV1aAfXvFf0P/view?usp=sharing' },
+      {
+        name: 'Clothing',
+        link: 'https://drive.google.com/file/d/1aqmoxXj6rGWZPFBNp51aLV1aAfXvFf0P/view?usp=sharing',
+      },
       { name: 'LGBTQ', link: 'example2.com' },
       { name: 'Seniors', link: 'example3.com' },
     ],
   },
-
-  // {
-  //   id: '',
-  //   name: '',
-  //   topLinks:[
-  //     {name:'', link:''},
-  //     {name:'', link:''},
-  //     {name:'', link:''}
-  //   ]
-  // },
 ];
