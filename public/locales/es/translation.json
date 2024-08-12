@@ -19,5 +19,44 @@
     "heading": "CONTACTA SERVICIOS PARA RESIDENTES",
     "residentServicesDropBox": "Buzón de servicios para residentes",
     "dropBoxLocations": "Ubicado en todas las propiedades"
+  },
+  "communities": {
+    "arroyo-village": {
+      "name": "Arroyo Village",
+      "defaultAnnouncement": "¡Bienvenido a Arroyo Village! Estamos aquí para ayudarte a encontrar los recursos que necesitas para prosperar en nuestra comunidad. Haz clic en los botones de abajo para aprender más sobre los recursos disponibles para ti."
+    },
+    "garden-court": {
+      "name": "Garden Court",
+      "defaultAnnouncement": "¡Bienvenido a Garden Court! Estamos aquí para ayudarte a encontrar los recursos que necesitas para prosperar en nuestra comunidad. Haz clic en los botones de abajo para aprender más sobre los recursos disponibles para ti."
+    },
+    "mountain-terrace": {
+      "name": "Mountain Terrace",
+      "defaultAnnouncement": "¡Bienvenido a Mountain Terrace! Estamos aquí para ayudarte a encontrar los recursos que necesitas para prosperar en nuestra comunidad. Haz clic en los botones de abajo para aprender más sobre los recursos disponibles para ti."
+    }
+  },
+  "resources": {
+    "heading": "RECURSOS",
+    "subheading": "Encuentra los recursos que necesitas para prosperar en tu comunidad.",
+    "viewMoreResources": "VER MÁS RECURSOS",
+    "categories": {
+      "housing-stability": {
+        "path": "housing-stability",
+        "name": "Estabilidad de Vivienda",
+        "subcategories": {
+          "emergencyHousing": {
+            "name": "Vivienda de Emergencia",
+            "link": "/resources/housing-stability"
+          },
+          "rentAssistance": {
+            "name": "Asistencia de Renta",
+            "link": "/resources/housing-stability#rent-assistance"
+          },
+          "utilitiesAssistance": {
+            "name": "Asistencia de Servicios Públicos",
+            "link": "/resources/housing-stability#utilities-assistance"
+          }
+        }
+      }
+    }
   }
 }

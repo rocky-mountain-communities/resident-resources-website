@@ -27,6 +27,7 @@ export default function CommunityPage({
   return (
     <main className='space-y-6'>
       <InfoSection
+        communityId={params.slug}
         announcementMessage={pageData.defaultAnnouncement}
         communityName={pageData.name}
         headerImagePath={pageData.headerImagePath}

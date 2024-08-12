@@ -19,5 +19,44 @@
     "heading": "CONTACT RESIDENT SERVICES",
     "residentServicesDropBox": "Resident Services Drop-box",
     "dropBoxLocations": "Located on All Properties"
+  },
+  "communities": {
+    "arroyo-village": {
+      "name": "Arroyo Village",
+      "defaultAnnouncement": "Welcome to Arroyo Village! We're here to help you find the resources you need to thrive in our community. Click on the buttons below to learn more about the resources available to you."
+    },
+    "garden-court": {
+      "name": "Garden Court",
+      "defaultAnnouncement": "Welcome to Garden Court! We're here to help you find the resources you need to thrive in our community. Click on the buttons below to learn more about the resources available to you."
+    },
+    "mountain-terrace": {
+      "name": "Mountain Terrace",
+      "defaultAnnouncement": "Welcome to Mountain Terrace! We're here to help you find the resources you need to thrive in our community. Click on the buttons below to learn more about the resources available to you."
+    }
+  },
+  "resources": {
+    "heading": "RESOURCES",
+    "subheading": "Find the resources you need to thrive in your community.",
+    "viewMoreResources": "VIEW MORE RESOURCES",
+    "categories": {
+      "housing-stability": {
+        "path": "housing-stability",
+        "name": "Housing Stability",
+        "subcategories": {
+          "emergencyHousing": {
+            "name": "Emergency Housing",
+            "link": "/resources/housing-stability"
+          },
+          "rentAssistance": {
+            "name": "Rent Assistance",
+            "link": "/resources/housing-stability#rent-assistance"
+          },
+          "utilitiesAssistance": {
+            "name": "Utilities Assistance",
+            "link": "/resources/housing-stability#utilities-assistance"
+          }
+        }
+      }
+    }
   }
 }
