@@ -1,7 +1,4 @@
-'use client';
 import Image from 'next/image';
-
-import { FeatureHighlightContent } from '@/content/infoSection';
 
 const styles = {
   section: 'grid grid-cols-1 md:grid-cols-2 gap-x-6 px-6 py-12',
@@ -25,7 +22,7 @@ export default function FeatureHighlight({
       <div className=''>
         <Image
           src={headerImagePath}
-          alt={FeatureHighlightContent.imageAlt}
+          alt={communityName}
           width={500}
           height={500}
           className={styles.imageContainer}

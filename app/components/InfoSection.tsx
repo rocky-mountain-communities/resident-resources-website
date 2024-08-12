@@ -11,6 +11,10 @@ const styles = {
   scheduleList: '',
 };
 
+interface Schedule {
+  [key: string]: string[];
+}
+
 export default function InfoSection({
   communityName,
   headerImagePath,
@@ -20,7 +24,7 @@ export default function InfoSection({
   communityName: string;
   headerImagePath: string;
   announcementMessage: string;
-  schedule: object;
+  schedule: Schedule;
 }) {
   const currentDate = dayjs().format('YYYY-MM-DD');
   const scheduleItems = schedule[currentDate as keyof typeof schedule] || [];
