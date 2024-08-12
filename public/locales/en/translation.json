@@ -39,6 +39,10 @@
     "subheading": "Find the resources you need to thrive in your community.",
     "viewMoreResources": "VIEW MORE RESOURCES",
     "categories": {
+      "financial-stability": {
+        "name": "Financial Stability",
+        "subcategories": {},
+      },
       "housing-stability": {
         "name": "Housing Stability",
         "subcategories": {
