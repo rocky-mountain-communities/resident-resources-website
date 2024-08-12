@@ -1,52 +1,39 @@
 'use client';
-import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 import { FeatureHighlightContent } from '@/content/infoSection';
 
 const styles = {
-  section: 'flex flex-row gap-4',
-  imageContainer: 'md:basis-1/2 h-full hidden md:block object-cover',
-  contentContainer:
-    'md:flex items-center justify-center md:block md:basis-1/2 p-10',
-  title: 'text-xl font-bold md:text-2xl md:text-center',
+  section: 'grid grid-cols-1 md:grid-cols-2 gap-x-6 px-6 py-12',
+  imageContainer: 'hidden md:block',
+  contentContainer: 'grid grid-rows-1',
+  title: 'text-center text-2xl font-bold',
   description: '',
 };
 
-export default function FeatureHighlight() {
-  const [title, setTitle] = useState(FeatureHighlightContent.featureTitle);
-  const [description, setDescription] = useState('');
-
-  useEffect(() => {
-    const updateDescription = () => {
-      if (window.innerWidth < 768) {
-        setTitle(FeatureHighlightContent.mobileFeatureTitle);
-        setDescription(FeatureHighlightContent.mobileDescription);
-      } else {
-        setTitle(FeatureHighlightContent.featureTitle);
-        setDescription('');
-      }
-    };
-
-    updateDescription();
-
-    window.addEventListener('resize', updateDescription);
-
-    return () => window.removeEventListener('resize', updateDescription);
-  }, []);
-
+export default function FeatureHighlight({
+  headerImagePath,
+  communityName,
+  announcementMessage,
+}: {
+  headerImagePath: string;
+  communityName: string;
+  announcementMessage: string;
+}) {
   return (
     <section className={styles.section}>
-      <Image
-        src={FeatureHighlightContent.imagePath}
-        alt={FeatureHighlightContent.imageAlt}
-        width={281}
-        height={187}
-        className={styles.imageContainer}
-      />
+      <div className=''>
+        <Image
+          src={headerImagePath}
+          alt={FeatureHighlightContent.imageAlt}
+          width={500}
+          height={500}
+          className={styles.imageContainer}
+        />
+      </div>
       <div className={styles.contentContainer}>
-        <h2 className={styles.title}>{title}</h2>
-        <p className={styles.description}>{description}</p>
+        <h2 className={styles.title}>{communityName}</h2>
+        <p className={styles.description}>{announcementMessage}</p>
       </div>
     </section>
   );

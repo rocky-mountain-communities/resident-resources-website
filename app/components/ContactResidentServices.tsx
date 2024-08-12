@@ -4,7 +4,7 @@ import Card from '@/app/components/Card';
 export default function ContactResidentServices() {
   return (
     <section>
-      <h1 className='text-white'>CONTACT RESIDENT SERVICES</h1>
+      <h1 className='text-white text-xl pb-4'>CONTACT RESIDENT SERVICES</h1>
       <Card className='grid grid-cols-1 lg:grid-cols-3 gap-8 p-10'>
         {contactServices.map((contact) => (
           <div

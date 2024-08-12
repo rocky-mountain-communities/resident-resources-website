@@ -1,4 +1,6 @@
 {
   "name": "Garden Court",
-  "url": "https://rockymountaincommunities.org/housing-communities/program-service-descriptions/denver-co-garden-court/"
+  "url": "https://rockymountaincommunities.org/housing-communities/program-service-descriptions/denver-co-garden-court/",
+  "defaultAnnouncement": "Welcome to Garden Court! We're here to help you find the resources you need to thrive in our community. Click on the buttons below to learn more about the resources available to you.",
+  "headerImagePath": "/communities/garden-court.png"
 }

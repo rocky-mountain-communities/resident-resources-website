@@ -64,19 +64,19 @@ export const resourceCategories = [
     name: 'Youth & Education',
     topLinks: [
       { name: 'Childcare Assistance & Programs', link: 'example.com' },
-      { name: 'Learning Programs & Scholarships', link: 'example2.com' },
+      { name: 'Learning Programs', link: 'example2.com' },
       { name: 'GED Testing', link: 'example3.com' },
     ],
   },
-  {
-    id: 'digital-resilience',
-    name: 'Digital Resilience',
-    topLinks: [
-      { name: 'Childcare Assistance & Programs', link: 'example.com' },
-      { name: 'Learning Programs & Scholarships', link: 'example2.com' },
-      { name: 'GED Testing', link: 'example3.com' },
-    ],
-  },
+  // {
+  //   id: 'digital-resilience',
+  //   name: 'Digital Resilience',
+  //   topLinks: [
+  //     { name: 'Childcare Assistance & Programs', link: 'example.com' },
+  //     { name: 'Learning Programs', link: 'example2.com' },
+  //     { name: 'GED Testing', link: 'example3.com' },
+  //   ],
+  // },
   {
     id: 'additional-resources',
     name: 'Additional Resources',

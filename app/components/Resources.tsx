@@ -47,7 +47,7 @@ const CategoriesCard = ({ category }: CategoriesCardProps) => {
 export default function Resources() {
   return (
     <section id='Resources'>
-      <h1 className='text-white'>RESOURCES</h1>
+      <h1 className='text-white text-xl pb-4'>RESOURCES</h1>
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6'>
         {resourceCategories.map((category) => (
           <div key={category.id}>
