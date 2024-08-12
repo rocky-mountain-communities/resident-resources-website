@@ -3,7 +3,11 @@ import Resources from '@/app/components/Resources';
 import ContactResidentServices from '@/app/components/ContactResidentServices';
 
 export async function generateStaticParams() {
-  const community_paths = ['arroyo-village', 'garden-court'];
+  const community_paths = [
+    'arroyo-village',
+    'garden-court',
+    'mountain-terrace',
+  ];
 
   return community_paths.map((slug) => ({ slug }));
 }
