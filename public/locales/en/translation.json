@@ -40,7 +40,6 @@
     "viewMoreResources": "VIEW MORE RESOURCES",
     "categories": {
       "housing-stability": {
-        "path": "housing-stability",
         "name": "Housing Stability",
         "subcategories": {
           "emergencyHousing": {

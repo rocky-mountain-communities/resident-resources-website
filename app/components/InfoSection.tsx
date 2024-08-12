@@ -1,9 +1,9 @@
 'use client';
+import dayjs from 'dayjs';
+import { useTranslation } from 'react-i18next';
 import Card from '@/app/components/Card';
 import CurrentDate from '@/app/components/CurrentDate';
 import FeatureHighlight from '@/app/components/FeatureContent';
-import dayjs from 'dayjs';
-import { useTranslation } from 'react-i18next';
 
 const styles = {
   infoSection: 'grid md:grid-cols-3 gap-6',
@@ -19,15 +19,9 @@ interface Schedule {
 
 export default function InfoSection({
   communityId,
-  communityName,
-  headerImagePath,
-  announcementMessage,
   schedule,
 }: {
-  communityId;
-  communityName: string;
-  headerImagePath: string;
-  announcementMessage: string;
+  communityId: string;
   schedule: Schedule;
 }) {
   const { t } = useTranslation();
@@ -42,7 +36,7 @@ export default function InfoSection({
           announcementMessage={t(
             `communities.${communityId}.defaultAnnouncement`
           )}
-          headerImagePath={headerImagePath}
+          headerImagePath={`/images/${communityId}.png`}
         />
       </Card>
       <Card className={styles.scheduleCard}>
