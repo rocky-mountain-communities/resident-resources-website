@@ -39,18 +39,24 @@ export const resourceCategories = [
     id: 'financial-stability',
     name: 'Financial Stability',
     topLinks: [
-      { name: 'Employment Resources', link: 'example.com' },
-      { name: 'Food Pantries', link: 'example2.com' },
-      { name: 'Legal Resources', link: 'example3.com' },
+      { name: 'Employment Resources', link: '/resources/financial-stability' },
+      { name: 'Food Pantries', link: '/resources/financial-stability' },
+      { name: 'Legal Resources', link: '/resources/financial-stability' },
     ],
   },
   {
     id: 'health-wellness',
     name: 'Health & Wellness',
     topLinks: [
-      { name: 'Addiction & Recovery', link: 'example.com' },
-      { name: 'Counseling & Mental Health', link: 'example2.com' },
-      { name: 'Hotlines', link: 'example3.com' },
+      {
+        name: 'Addiction & Recovery',
+        link: '/resources/health-wellness#addiction-and-recovery',
+      },
+      {
+        name: 'Counseling & Mental Health',
+        link: '/resources/health-wellness#counseling-and-mental-health',
+      },
+      { name: 'Hotlines', link: '/resources/health-wellness#hotlines' },
     ],
   },
   {

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Resource #3",
+    "button": {
+      "text": "VIEW WEBSITE",
+      "link": "https://example.com/"
+    },
+    "description": "Description for Career Resource 1.",
+    "location": "6240 Smith Road Denver CO 80216",
+    "phone": "555-123-1234"
+  }
+]

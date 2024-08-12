@@ -22,7 +22,7 @@ const styles = {
   boldText: 'font-bold',
   phoneMargin: 'mb-4',
   button:
-    'w-fit self-center bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
+    'w-full self-center bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
 };
 
 const ResourceCard = ({ resource }: ResourceCardProps) => {
