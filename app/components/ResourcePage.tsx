@@ -5,7 +5,11 @@ import ResourcesSection from '@/app/components/ResourcesSection';
 // import ResourcesSidebar from '@/app/components/ResourcesSideBar';
 import translations from '@/public/locales/en.json';
 import { useTranslation } from 'react-i18next';
-import { ResourceCategories, Subcategory } from '@/app/constants/interfaces';
+import {
+  ResourceCategories,
+  Subcategory,
+  Resources,
+} from '@/app/constants/interfaces';
 
 export default function ResourcePage({ slug }: { slug: string }) {
   const { t } = useTranslation();
@@ -39,7 +43,7 @@ export default function ResourcePage({ slug }: { slug: string }) {
               <div key={subcategory.name}>
                 <ResourcesSection
                   categoryKey={slug}
-                  resources={subcategory.entries}
+                  resources={subcategory.entries as Resources}
                   subcategoryKey={key}
                   title={t(titleKey)}
                 />

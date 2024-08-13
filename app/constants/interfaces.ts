@@ -8,10 +8,13 @@ export interface Resource {
     text: string;
   };
 }
+export interface Resources {
+  [key: string]: Resource;
+}
 
 export interface Subcategory {
   name: string;
-  entries: Resource[];
+  entries: Resources;
 }
 export interface ResourceCategories {
   [key: string]: {

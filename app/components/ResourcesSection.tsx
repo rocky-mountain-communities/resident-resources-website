@@ -1,11 +1,6 @@
 import { capitalizeWords, formatTitleToId } from '@/app/utils/wordFormat';
 import ResourceCard from '@/app/components/ResourceCard';
-import { Resource } from '@/app/constants/interfaces';
-
-interface Resources {
-  [key: string]: Resource;
-}
-
+import { Resources } from '@/app/constants/interfaces';
 export interface ResourcesSectionProps {
   title: string;
   categoryKey: string;
