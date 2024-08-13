@@ -1,8 +1,10 @@
 import Card from '@/app/components/Card';
+import { useTranslation } from 'react-i18next';
 
 interface ResourceCardProps {
+  translationPath: string;
   resource: {
-    title: string;
+    name: string;
     description: string;
     phone?: string;
     location?: string;
@@ -25,7 +27,9 @@ const styles = {
     'w-full self-center bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
 };
 
-const ResourceCard = ({ resource }: ResourceCardProps) => {
+const ResourceCard = ({ resource, translationPath }: ResourceCardProps) => {
+  const { t } = useTranslation();
+
   return (
     <Card className={styles.card}>
       <a
@@ -34,10 +38,12 @@ const ResourceCard = ({ resource }: ResourceCardProps) => {
         target='_blank'
         rel='noopener noreferrer'
       >
-        {resource.title}
+        {t(`${translationPath}.name`)}
       </a>
       <div className={styles.grid}>
-        <p className={styles.description}>{resource.description}</p>
+        <p className={styles.description}>
+          {t(`${translationPath}.description`)}
+        </p>
         <div className={styles.flex}>
           {resource.location && (
             <p id='location' className={styles.boldText}>

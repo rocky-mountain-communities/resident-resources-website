@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-import en from '@/public/locales/en/translation.json';
-import es from '@/public/locales/es/translation.json';
+import en from '@/public/locales/en.json';
+import es from '@/public/locales/es.json';
 
 // const translationsDirectory = path.join(process.cwd(), 'content');
 // const landingPageTranslationsPath = path.join(translationsDirectory, 'landing-page.json');

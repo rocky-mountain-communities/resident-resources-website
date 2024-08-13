@@ -1,7 +1,7 @@
 'use client';
 import Card from '@/app/components/Card';
 import Link from 'next/link';
-import translations from '@/public/locales/en/translation.json';
+import translations from '@/public/locales/en.json';
 import { useTranslation } from 'react-i18next';
 
 type Subcategory = {

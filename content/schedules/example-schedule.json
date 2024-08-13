@@ -1,0 +1,15 @@
+{
+  "YYYY-MM-DD": [
+    {
+      "type": "computer-lab",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm"
+    },
+    {
+      "eventTitle": "Community Brunch",
+      "type": "event",
+      "startTime": "12:00 pm",
+      "endTime": "1:00 pm"
+    }
+  ]
+}
