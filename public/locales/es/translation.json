@@ -45,15 +45,30 @@
         "subcategories": {
           "emergencyHousing": {
             "name": "Vivienda de Emergencia",
-            "link": "/resources/housing-stability"
+            "link": "/resources/housing-stability",
+            "entries": {
+              "catholicCharities": {
+                "name": "Catholic Charities",
+                "link": "https://www.catholiccharitiesusa.org/",
+                "description": "Catholic Charities brinda servicios de vivienda de emergencia a individuos y familias necesitadas.",
+                "location": "6240 Smith Road Denver CO 80216",
+                "phone": "(855) 777-5280",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://ccdenver.org/"
+                }
+              }
+            }
           },
           "rentAssistance": {
             "name": "Asistencia de Renta",
-            "link": "/resources/housing-stability#rent-assistance"
+            "link": "/resources/housing-stability#rent-assistance",
+            "entries": {}
           },
           "utilitiesAssistance": {
             "name": "Asistencia de Servicios Públicos",
-            "link": "/resources/housing-stability#utilities-assistance"
+            "link": "/resources/housing-stability#utilities-assistance",
+            "entries": {}
           }
         }
       }

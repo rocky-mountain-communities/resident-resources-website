@@ -1,42 +1,46 @@
 import { capitalizeWords, formatTitleToId } from '@/app/utils/wordFormat';
 import ResourceCard from '@/app/components/ResourceCard';
-export interface Resource {
-  title: string;
-  description: string;
-  phone: string;
-  location: string;
-  button: {
-    link: string;
-    text: string;
-  };
+import { Resource } from '@/app/constants/interfaces';
+
+interface Resources {
+  [key: string]: Resource;
 }
 
 export interface ResourcesSectionProps {
   title: string;
-  path: string;
-  resources: Resource[];
+  categoryKey: string;
+  subcategoryKey: string;
+  resources: Resources;
 }
 
 export default function ResourcesSection({
   title,
-  path,
+  categoryKey,
+  subcategoryKey,
   resources,
 }: ResourcesSectionProps) {
   return (
     <div>
-      <h2 id={`${path}`} className='font-bold text-xl my-4'>
+      <h2 id={`${subcategoryKey}`} className='font-bold text-xl my-4'>
         {capitalizeWords(title)}
       </h2>
       <div>
-        {resources.map((resource) => (
-          <div
-            id={formatTitleToId(resource.title)}
-            key={resource.title}
-            className='my-6 pt-2'
-          >
-            <ResourceCard resource={resource} />
-          </div>
-        ))}
+        {Object.keys(resources).map((resourceKey: string) => {
+          const resource = resources[resourceKey];
+
+          return (
+            <div
+              id={formatTitleToId(resource.name)}
+              key={resource.name}
+              className='my-6 pt-2'
+            >
+              <ResourceCard
+                translationPath={`resources.categories.${categoryKey}.subcategories.${subcategoryKey}.entries.${resourceKey}`}
+                resource={resource}
+              />
+            </div>
+          );
+        })}
       </div>
     </div>
   );
