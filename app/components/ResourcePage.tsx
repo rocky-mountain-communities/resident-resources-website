@@ -1,12 +1,11 @@
 'use client';
 import { redirect } from 'next/navigation';
-import { getResources } from '@/app/utils/getResources';
 import Link from 'next/link';
 import ResourcesSection from '@/app/components/ResourcesSection';
-import ResourcesSidebar from '@/app/components/ResourcesSideBar';
+// import ResourcesSidebar from '@/app/components/ResourcesSideBar';
 import translations from '@/public/locales/en.json';
 import { useTranslation } from 'react-i18next';
-import { Resource, ResourceCategories } from '@/app/constants/interfaces';
+import { ResourceCategories, Subcategory } from '@/app/constants/interfaces';
 
 export default function ResourcePage({ slug }: { slug: string }) {
   const { t } = useTranslation();

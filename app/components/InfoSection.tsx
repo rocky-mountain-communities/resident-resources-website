@@ -1,5 +1,4 @@
 'use client';
-import dayjs from 'dayjs';
 import { useTranslation } from 'react-i18next';
 import Card from '@/app/components/Card';
 import CurrentDate from '@/app/components/CurrentDate';
@@ -18,18 +17,6 @@ interface ScheduleItem {
   eventTitle?: string;
   startTime: string;
   endTime?: string;
-}
-
-async function loadSchedule(slug: string) {
-  try {
-    const module = await import(`@/content/schedules/${slug}.json`, {
-      assert: { type: 'json' },
-    });
-    return module.default;
-  } catch (error) {
-    console.error('Error loading JSON file:', error);
-    return null;
-  }
 }
 
 export function TranslationForScheduleItem({ item }: { item: ScheduleItem }) {
@@ -82,7 +69,6 @@ export default function InfoSection({
   scheduleItems: ScheduleItem[];
 }) {
   const { t } = useTranslation();
-  const currentDate = dayjs().format('YYYY-MM-DD');
 
   return (
     <div className={styles.infoSection}>

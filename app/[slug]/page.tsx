@@ -12,10 +12,10 @@ export async function generateStaticParams() {
 
 async function loadSchedule(slug: string) {
   try {
-    const module = await import(`@/content/schedules/${slug}.json`, {
+    const result = await import(`@/content/schedules/${slug}.json`, {
       assert: { type: 'json' },
     });
-    return module.default;
+    return result.default;
   } catch (error) {
     console.error('Error loading JSON file:', error);
     return null;
