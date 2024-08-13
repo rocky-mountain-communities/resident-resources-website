@@ -3,7 +3,10 @@
     "english": "Inglés",
     "spanish": "Español",
     "englishAbbreviation": "EN",
-    "spanishAbbreviation": "ES"
+    "spanishAbbreviation": "ES",
+    "schedules": {
+      "computer-lab": "Laboratorio de Computación"
+    }
   },
   "landingPage": {
     "heading": "BIENVENIDO AL CENTRO DE RECURSOS PARA RESIDENTES DE RMC",

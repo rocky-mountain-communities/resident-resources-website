@@ -1,32 +1,38 @@
 import InfoSection from '@/app/components/InfoSection';
 import Resources from '@/app/components/Resources';
 import ContactResidentServices from '@/app/components/ContactResidentServices';
-import fs from 'fs';
-import path from 'path';
+import translations from '@/public/locales/en.json';
+import dayjs from 'dayjs';
 
 export async function generateStaticParams() {
-  const community_paths = [
-    'arroyo-village',
-    'garden-court',
-    'mountain-terrace',
-  ];
+  const community_paths = Object.keys(translations.communities);
 
   return community_paths.map((slug) => ({ slug }));
 }
 
-export default function CommunityPage({
+async function loadSchedule(slug: string) {
+  try {
+    const module = await import(`@/content/schedules/${slug}.json`, {
+      assert: { type: 'json' },
+    });
+    return module.default;
+  } catch (error) {
+    console.error('Error loading JSON file:', error);
+    return null;
+  }
+}
+
+export default async function CommunityPage({
   params,
 }: {
   params: { slug: string };
 }) {
-  const filePath = path.join(
-    process.cwd(),
-    `content/communities/${params.slug}.json`
-  );
-  const pageData = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  const currentDate = dayjs().format('YYYY-MM-DD');
+  const schedule = await loadSchedule(params.slug);
+  const scheduleItems = schedule[currentDate] || [];
   return (
     <main className='space-y-6'>
-      <InfoSection communityId={params.slug} schedule={pageData.schedule} />
+      <InfoSection communityId={params.slug} scheduleItems={scheduleItems} />
       <Resources />
       <ContactResidentServices />
     </main>

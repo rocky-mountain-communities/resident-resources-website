@@ -1,10 +1,4 @@
-import { redirect } from 'next/navigation';
 import { getResources } from '@/app/utils/getResources';
-import Link from 'next/link';
-import ResourcesSection from '@/app/components/ResourcesSection';
-import ResourcesSidebar from '@/app/components/ResourcesSideBar';
-import englishTranslations from '@/public/locales/en/translation.json';
-import { useTranslation } from 'react-i18next';
 import ResourcePage from '@/app/components/ResourcePage';
 
 export async function generateStaticParams() {

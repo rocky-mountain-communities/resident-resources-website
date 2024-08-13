@@ -3,7 +3,10 @@
     "english": "English",
     "spanish": "Spanish",
     "englishAbbreviation": "EN",
-    "spanishAbbreviation": "ES"
+    "spanishAbbreviation": "ES",
+    "schedules": {
+      "computer-lab": "Computer Lab"
+    }
   },
   "landingPage": {
     "heading": "WELCOME TO THE RMC RESIDENT RESOURCE CENTER",
@@ -38,6 +41,7 @@
     "heading": "RESOURCES",
     "subheading": "Find the resources you need to thrive in your community.",
     "viewMoreResources": "VIEW MORE RESOURCES",
+    "backToResources": "Back to Resources",
     "categories": {
       "housing-stability": {
         "name": "Housing Stability",

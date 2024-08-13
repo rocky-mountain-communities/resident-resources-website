@@ -4,27 +4,26 @@ import { getResources } from '@/app/utils/getResources';
 import Link from 'next/link';
 import ResourcesSection from '@/app/components/ResourcesSection';
 import ResourcesSidebar from '@/app/components/ResourcesSideBar';
-import englishTranslations from '@/public/locales/en/translation.json';
+import translations from '@/public/locales/en.json';
 import { useTranslation } from 'react-i18next';
 import { Resource, ResourceCategories } from '@/app/constants/interfaces';
 
 export default function ResourcePage({ slug }: { slug: string }) {
   const { t } = useTranslation();
 
-  const categories = englishTranslations.resources
-    .categories as ResourceCategories;
-  const category = categories[slug as string];
+  const categories = translations.resources
+    .categories as unknown as ResourceCategories;
+
+  const category = categories[slug];
 
   if (!category) {
     redirect('/');
   }
 
-  console.log(category.subcategories);
-
   return (
     <main className='text-white '>
       <Link href='/' className='hover:underline'>
-        Back to Resources
+        {t('resources.backToResources')}
       </Link>
       <section className='flex flex-row py-5'>
         <div id='sidebar' className='basis-5/12'>
@@ -36,15 +35,14 @@ export default function ResourcePage({ slug }: { slug: string }) {
         <div className='w-full'>
           {Object.keys(category.subcategories).map((key: string) => {
             const subcategory = category.subcategories[key] as Subcategory;
+            const titleKey = `resources.categories.${slug}.subcategories.${key}.name`;
             return (
               <div key={subcategory.name}>
                 <ResourcesSection
                   categoryKey={slug}
-                  subcategoryKey={key}
-                  title={t(
-                    `resources.categories.${slug}.subcategories.${key}.name`
-                  )}
                   resources={subcategory.entries}
+                  subcategoryKey={key}
+                  title={t(titleKey)}
                 />
               </div>
             );

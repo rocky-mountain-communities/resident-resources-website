@@ -6,27 +6,83 @@ import CurrentDate from '@/app/components/CurrentDate';
 import FeatureHighlight from '@/app/components/FeatureContent';
 
 const styles = {
-  infoSection: 'grid md:grid-cols-3 gap-6',
+  infoSection: 'grid md:grid-cols-3 gap-6 mx-auto',
   featureCard: 'md:col-span-2',
   scheduleCard: 'md:col-span-1',
   currentDateContainer: '',
   scheduleList: '',
 };
 
-interface Schedule {
-  [key: string]: string[];
+interface ScheduleItem {
+  type: string;
+  eventTitle?: string;
+  startTime: string;
+  endTime?: string;
+}
+
+async function loadSchedule(slug: string) {
+  try {
+    const module = await import(`@/content/schedules/${slug}.json`, {
+      assert: { type: 'json' },
+    });
+    return module.default;
+  } catch (error) {
+    console.error('Error loading JSON file:', error);
+    return null;
+  }
+}
+
+export function TranslationForScheduleItem({ item }: { item: ScheduleItem }) {
+  const { t } = useTranslation();
+
+  switch (item.type) {
+    case 'event':
+      return (
+        <div className='mb-2'>
+          <b>{item.eventTitle}</b>:
+          <div>
+            {item.startTime} {item.endTime ? `- ${item.endTime}` : ''}
+          </div>
+        </div>
+      );
+    case 'computer-lab':
+      return (
+        <div className='mb-2'>
+          <b>{t(`common.schedules.${item.type}`)}</b>:
+          <div>
+            {item.startTime} {item.endTime ? `- ${item.endTime}` : ''}
+          </div>
+        </div>
+      );
+    default:
+      return (
+        <div className='mb-2'>
+          <b>{item.eventTitle}</b>:
+          <div>
+            {item.startTime} {item.endTime ? `- ${item.endTime}` : ''}
+          </div>
+        </div>
+      );
+  }
+}
+
+export function ScheduleItemRow({ item }: { item: ScheduleItem }) {
+  return (
+    <div className='mb-2'>
+      <TranslationForScheduleItem item={item} />
+    </div>
+  );
 }
 
 export default function InfoSection({
   communityId,
-  schedule,
+  scheduleItems,
 }: {
   communityId: string;
-  schedule: Schedule;
+  scheduleItems: ScheduleItem[];
 }) {
   const { t } = useTranslation();
   const currentDate = dayjs().format('YYYY-MM-DD');
-  const scheduleItems = schedule[currentDate as keyof typeof schedule] || [];
 
   return (
     <div className={styles.infoSection}>
@@ -48,8 +104,10 @@ export default function InfoSection({
             <div className='h-0.5 bg-black mx-auto'></div>
           </div>
           <ul className={styles.scheduleList}>
-            {scheduleItems.map((item, index) => (
-              <li key={index}>{item}</li>
+            {scheduleItems.map((item) => (
+              <li key={`${item.startTime}-${item.type}`}>
+                <ScheduleItemRow item={item} />
+              </li>
             ))}
           </ul>
         </div>
