@@ -56,6 +56,23 @@
             "link": "/resources/housing-stability#utilities-assistance"
           }
         }
+      },
+      "financial-stability": {
+        "name": "Financial Stability",
+        "subcategories": {
+          "emergencyHousing": {
+            "name": "Emergency Housing",
+            "link": "/resources/housing-stability"
+          },
+          "rentAssistance": {
+            "name": "Rent Assistance",
+            "link": "/resources/housing-stability#rent-assistance"
+          },
+          "utilitiesAssistance": {
+            "name": "Utilities Assistance",
+            "link": "/resources/housing-stability#utilities-assistance"
+          }
+        }
       }
     }
   }
