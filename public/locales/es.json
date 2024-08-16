@@ -42,6 +42,10 @@
     "subheading": "Encuentra los recursos que necesitas para prosperar en tu comunidad.",
     "viewMoreResources": "VER MÁS RECURSOS",
     "categories": {
+       "financial-stability": {
+        "name": "Estabilidad-financiera",
+        "path": "financial-stability"   
+       },
       "housing-stability": {
         "path": "housing-stability",
         "name": "Estabilidad de Vivienda",
