@@ -60,18 +60,195 @@
                   "text": "VIEW WEBSITE",
                   "link": "https://ccdenver.org/"
                 }
+              },
+              "coloradoCoalitionForTheHomeless": {
+                "name": "Coalición de Colorado para Personas sin Hogar",
+                "link": "https://www.coloradocoalition.org/",
+                "description": "La Coalición de Colorado para Personas sin Hogar ofrece servicios de vivienda de emergencia a personas sin hogar.",
+                "location": "2111 Champa Street Denver CO 80205",
+                "phone": "(303) 293-2217",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.coloradocoalition.org/"
+                }
+              },
+              "jewishFamilyService": {
+                "name": "Servicios Familiares Judíos",
+                "link": "https://www.jewishfamilyservice.org/",
+                "description": "Jewish Family Service brinda servicios de vivienda de emergencia a individuos y familias necesitadas.",
+                "location": "3201 South Tamarac Drive Denver CO 80231",
+                "phone": "(303) 597-5000",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.jewishfamilyservice.org/"
+                }
+              },
+              "lawrenceStreetCommunityCenter": {
+                "name": "Centro Comunitario Lawrence Street",
+                "link": "https://www.denverrescuemission.org/",
+                "description": "El Centro Comunitario Lawrence Street ofrece servicios de vivienda de emergencia a personas sin hogar.",
+                "location": "2222 Lawrence Street Denver CO 80205",
+                "phone": "(303) 294-0157",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denverrescuemission.org/"
+                }
+              },
+              "newLifeProgram": {
+                "name": "Programa Nueva Vida",
+                "link": "https://www.denverrescuemission.org/",
+                "description": "El Programa Nueva Vida ofrece servicios de vivienda de emergencia a personas sin hogar.",
+                "location": "6090 Smith Road Denver CO 80216",
+                "phone": "(303) 297-1815",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denverrescuemission.org/"
+                }
+              },
+              "theDeloresProject": {
+                "name": "Proyecto Delores",
+                "link": "https://www.deloresproject.org/",
+                "description": "El Proyecto Delores ofrece servicios de vivienda de emergencia a mujeres y personas transgénero sin hogar.",
+                "location": "1331 Fox Street Denver CO 80204",
+                "phone": "(303) 534-5411",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.deloresproject.org/"
+                }
+              },
+              "theDenverRescueMission": {
+                "name": "Misión de Rescate de Denver",
+                "link": "https://www.denverrescuemission.org/",
+                "description": "La Misión de Rescate de Denver ofrece servicios de vivienda de emergencia a personas sin hogar.",
+                "location": "1130 Park Avenue West Denver CO 80205",
+                "phone": "(303) 294-0157",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denverrescuemission.org/"
+                }
+              },
+              "theDenverSamaritanHouse": {
+                "name": "Casa Samaritana de Denver",
+                "link": "https://ccdenver.org/",
+                "description": "La Casa Samaritana de Denver ofrece servicios de vivienda de emergencia a personas sin hogar.",
+                "location": "2301 Lawrence Street Denver CO 80205",
+                "phone": "(303) 294-0241",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://ccdenver.org/"
+                }
+              },
+              "theHOPEProgram": {
+                "name": "Programa HOPE",
+                "link": "https://www.denverrescuemission.org/",
+                "description": "El Programa HOPE ofrece servicios de vivienda de emergencia a personas sin hogar.",
+                "location": "6090 Smith Road Denver CO 80216",
+                "phone": "(303) 297-1815",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denverrescuemission.org/"
+                }
               }
             }
           },
           "rentAssistance": {
             "name": "Asistencia de Renta",
             "link": "/resources/housing-stability#rent-assistance",
-            "entries": {}
+            "entries": {
+              "emergencyRentalAssistanceProgram": {
+                "name": "Programa de Asistencia de Renta de Emergencia",
+                "link": "https://www.denvergov.org/content/denvergov/en/housing-information/resident",
+                "description": "El Programa de Asistencia de Renta de Emergencia ofrece asistencia de alquiler a individuos y familias necesitadas.",
+                "location": "Online",
+                "phone": "(303) 864-7852",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.colorado.gov/pacific/cdhs/rental-mortgage-assistance"
+                }
+              },
+              "temporaryRentalAndUtilityAssistance": {
+                "name": "Asistencia Temporal de Alquiler y Servicios Públicos",
+                "link": "https://www.denvergov.org/content/denvergov/en/housing-information/resident",
+                "description": "La Asistencia Temporal de Alquiler y Servicios Públicos ofrece asistencia de alquiler y servicios públicos a individuos y familias necesitadas.",
+                "location": "Online",
+                "phone": "(720) 944-2500",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/content/denvergov/en/housing-information/resident"
+                }
+              },
+              "denverHousingAuthority": {
+                "name": "Autoridad de Vivienda de Denver",
+                "link": "https://www.denverhousing.org/",
+                "description": "La Autoridad de Vivienda de Denver ofrece asistencia de alquiler a individuos y familias necesitadas.",
+                "location": "777 Grant Street Denver CO 80203",
+                "phone": "(720) 932-3000",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denverhousing.org/"
+                }
+              },
+              "denverHumanServices": {
+                "name": "Servicios Humanos de Denver",
+                "link": "https://www.denvergov.org/content/denvergov/en/housing-information/resident",
+                "description": "Los Servicios Humanos de Denver ofrecen asistencia de alquiler a individuos y familias necesitadas.",
+                "location": "1200 Federal Boulevard Denver CO 80204",
+                "phone": "(720) 944-3666",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/content/denvergov/en/housing-information/resident"
+                }
+              },
+              "villageResourceCenter": {
+                "name": "Centro de Recursos de la Villa",
+                "link": "https://www.villageresourcecenter.org/",                "description": "El Centro de Recursos de la Villa ofrece asistencia de alquiler a individuos y familias necesitadas.",
+                "location": "7830 West Alameda Avenue Lakewood CO 80226",
+                "phone": "(303) 237-7704",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.villageresourcecenter.org/"
+                }
+              }
+            }
           },
           "utilitiesAssistance": {
             "name": "Asistencia de Servicios Públicos",
             "link": "/resources/housing-stability#utilities-assistance",
-            "entries": {}
+            "entries": {
+              "coloradoLowIncomeEnergyAssistanceProgram": {
+                "name": "Programa de Asistencia de Energía para Personas de Bajos Ingresos de Colorado",
+                "link": "https://www.colorado.gov/pacific/cdhs/energy-assistance",
+                "description": "El Programa de Asistencia de Energía para Personas de Bajos Ingresos de Colorado ofrece asistencia de servicios públicos a individuos y familias necesitadas.",
+                "location": "Online",
+                "phone": "(866) 432-8435",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.colorado.gov/pacific/cdhs/energy-assistance"
+                }
+              },
+              "energyBillAssistanceProgram": {
+                "name": "Programa de Asistencia de Facturas de Energía",
+                "link": "https://www.xcelenergy.com/",
+                "description": "El Programa de Asistencia de Facturas de Energía ofrece asistencia de servicios públicos a individuos y familias necesitadas.",
+                "location": "Online",
+                "phone": "(800) 895-4999",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.xcelenergy.com/"
+                }
+              },
+              "energyOutreachColorado": {
+                "name": "Alcance de Energía de Colorado",
+                "link": "https://www.energyoutreach.org/",
+                "description": "El Alcance de Energía de Colorado ofrece asistencia de servicios públicos a individuos y familias necesitadas.",
+                "location": "225 East 16th Avenue Denver CO 80203",
+                "phone": "(303) 825-8750",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.energyoutreach.org/"
+                }
+              }
+            }
           }
         }
       }

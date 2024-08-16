@@ -60,18 +60,384 @@
                   "text": "VIEW WEBSITE",
                   "link": "https://ccdenver.org/"
                 }
+              },
+              "coloradoCoalitionForTheHomeless": {
+                "name": "Colorado Coalition for the Homeless",
+                "link": "https://www.coloradocoalition.org/",
+                "description": "The Colorado Coalition for the Homeless provides emergency housing services to individuals and families in need.",
+                "location": "2111 Champa Street Denver CO 80205",
+                "phone": "(303) 293-2217",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.coloradocoalition.org/"
+                }
+              },
+              "jewishFamilyService": {
+                "name": "Jewish Family Service",
+                "link": "https://www.jewishfamilyservice.org/",
+                "description": "Jewish Family Service provides emergency housing services to individuals and families in need.",
+                "location": "3201 South Tamarac Drive Denver CO 80231",
+                "phone": "(303) 597-5000",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.jewishfamilyservice.org/"
+                }
+              },
+              "lawrenceStreetCommunityCenter": {
+                "name": "Lawrence Street Community Center",
+                "link": "https://denverrescuemission.org/",
+                "description": "The Lawrence Street Community Center provides emergency housing services to individuals and families in need.",
+                "location": "2222 Lawrence Street Denver CO 80205",
+                "phone": "(303) 294-0157",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://denverrescuemission.org/"
+                }
+              },
+              "newLifeProgram": {
+                "name": "New Life Program",
+                "link": "https://denverrescuemission.org/",
+                "description": "The New Life Program provides emergency housing services to individuals and families in need.",
+                "location": "6090 Smith Road Denver CO 80216",
+                "phone": "(303) 297-1815",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://denverrescuemission.org/"
+                }
+              },
+              "theDeloresProject": {
+                "name": "The Delores Project",
+                "link": "https://www.deloresproject.org/",
+                "description": "The Delores Project provides emergency housing services to individuals and families in need.",
+                "location": "1335 Montview Boulevard Denver CO 80220",
+                "phone": "(303) 534-5411",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.deloresproject.org/"
+                }
+              },
+              "theDenverRescueMission": {
+                "name": "The Denver Rescue Mission",
+                "link": "https://denverrescuemission.org/",
+                "description": "The Denver Rescue Mission provides emergency housing services to individuals and families in need.",
+                "location": "1130 Park Avenue West Denver CO 80205",
+                "phone": "(303) 294-0157",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://denverrescuemission.org/"
+                }
+              },
+              "theDenverSamaritanHouse": {
+                "name": "The Denver Samaritan House",
+                "link": "https://ccdenver.org/",
+                "description": "The Denver Samaritan House provides emergency housing services to individuals and families in need.",
+                "location": "2301 Lawrence Street Denver CO 80205",
+                "phone": "(303) 294-0241",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://ccdenver.org/"
+                }
+              },
+              "theHOPEProgram": {
+                "name": "The HOPE Program",
+                "link": "https://www.hopeprogramcolorado.org/",
+                "description": "The HOPE Program provides emergency housing services to individuals and families in need.",
+                "location": "1130 Park Avenue West Denver CO 80205",
+                "phone": "(303) 778-3711",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.hopeprogramcolorado.org/"
+                }
               }
             }
           },
           "rentAssistance": {
             "name": "Rent Assistance",
             "link": "/resources/housing-stability#rent-assistance",
-            "entries": []
+            "entries": {
+              "emergencyRentalAssistanceProgram": {
+                "name": "Emergency Rental Assistance Program",
+                "link": "https://www.colorado.gov/pacific/cdhs/rental-mortgage-assistance",
+                "description": "The Emergency Rental Assistance Program provides financial assistance to individuals and families who are unable to pay their rent due to the COVID-19 pandemic.",
+                "location": "Online",
+                "phone": "(303) 864-7852",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.colorado.gov/pacific/cdhs/rental-mortgage-assistance"
+                }
+              },
+              "temporaryRentalAndUtilityAssistance": {
+                "name": "Temporary Rental and Utility Assistance",
+                "link": "https://www.denvergov.org/content/denvergov/en/housing-information/resident-resources/rental-assistance.html",
+                "description": "The Temporary Rental and Utility Assistance program provides financial assistance to individuals and families who are unable to pay their rent and utilities.",
+                "location": "Online",
+                "phone": "(720) 944-2500",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/content/denvergov/en/housing-information/resident"
+                }
+              },
+              "denverHousingAuthority": {
+                "name": "Denver Housing Authority",
+                "link": "https://www.denverhousing.org/",
+                "description": "The Denver Housing Authority provides financial assistance to individuals and families who are unable to pay their rent.",
+                "location": "777 Grant Street Denver CO 80203",
+                "phone": "(720) 932-3000",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denverhousing.org/"
+                }
+              },
+              "denverHumanServices": {
+                "name": "Denver Human Services",
+                "link": "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/office-of-economic-development.html",
+                "description": "Denver Human Services provides financial assistance to individuals and families who are unable to pay their rent.",
+                "location": "1200 Federal Boulevard Denver CO 80204",
+                "phone": "(720) 944-3666",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/office-of-economic-development.html"
+                }
+              },
+              "villageResourceCenter": {
+                "name": "Village Resource Center",
+                "link": "https://www.villageresourcecenter.org/",
+                "description": "The Village Resource Center provides financial assistance to individuals and families who are unable to pay their rent.",
+                "location": "7830 West Alameda Avenue Lakewood CO 80226",
+                "phone": "(303) 237-7704",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.villageresourcecenter.org/"
+                }
+              }
+            }
           },
           "utilitiesAssistance": {
             "name": "Utilities Assistance",
             "link": "/resources/housing-stability#utilities-assistance",
-            "entries": []
+            "entries": {
+              "coloradoLowIncomeEnergyAssistanceProgram": {
+                "name": "Colorado Low-Income Energy Assistance Program",
+                "link": "https://www.colorado.gov/pacific/cdhs/energy-assistance",
+                "description": "The Colorado Low-Income Energy Assistance Program provides financial assistance to individuals and families who are unable to pay their utility bills.",
+                "location": "Online",
+                "phone": "(866) 432-8435",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.colorado.gov/pacific/cdhs/energy-assistance"
+                }
+              },
+              "energyBillAssistanceProgram": {
+                "name": "Energy Bill Assistance Program",
+                "link": "https://www.xcelenergy.com/",
+                "description": "The Energy Bill Assistance Program provides financial assistance to individuals and families who are unable to pay their utility bills.",
+                "location": "Online",
+                "phone": "(800) 895-4999",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.xcelenergy.com/"
+                }
+              },
+              "energyOutreachColorado": {
+                "name": "Energy Outreach Colorado",
+                "link": "https://www.energyoutreach.org/",
+                "description": "Energy Outreach Colorado provides financial assistance to individuals and families who are unable to pay their utility bills.",
+                "location": "225 East 16th Avenue Denver CO 80203",
+                "phone": "(303) 825-8750",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.energyoutreach.org/"
+                }
+              }
+            }
+          }
+        }
+      },
+      "financial-stability": {
+        "name": "Financial Stability",
+        "subcategories": {
+          "employmentResources": {
+            "name": "Employment Resources",
+            "link": "/resources/financial-stability#employment-resources",
+            "entries": {
+              "centerForWorkEducationAndEmployment": {
+                "name": "Center for Work Education and Employment",
+                "link": "https://www.cwee.org/",
+                "description": "The Center for Work Education and Employment provides employment resources to individuals and families in need.",
+                "location": "1175 Osage Street Denver CO 80204",
+                "phone": "(303) 892-8444",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.cwee.org/"
+                }
+              },
+              "coloradoWorkforceCenter": {
+                "name": "Colorado Workforce Center",
+                "link": "https://www.colorado.gov/pacific/cdle/wfc",
+                "description": "The Colorado Workforce Center provides employment resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(303) 318-8000",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.colorado.gov/pacific/cdle/wfc"
+                }
+              },
+              "employmentAssistance": {
+                "name": "Employment Assistance",
+                "link": "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/office-of-economic-development.html",
+                "description": "Employment Assistance provides employment resources to individuals and families in need.",
+                "location": "1200 Federal Boulevard Denver CO 80204",
+                "phone": "(720) 944-3666",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/office-of-economic-development.html"
+                }
+              },
+              "employmentSolutions": {
+                "name": "Employment Solutions",
+                "link": "https://www.employmentsolutions.com/",
+                "description": "Employment Solutions provides employment resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(877) 880-4473",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.employmentsolutions.com/"
+                }
+              },
+              "primeSourceStaffing": {
+                "name": "Prime Source Staffing",
+                "link": "https://www.primesourcestaffing.com/",
+                "description": "Prime Source Staffing provides employment resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(303) 893-1400",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.primesourcestaffing.com/"
+                }
+              }
+            }
+          },
+          "foodPantries": {
+            "name": "Food Pantries",
+            "link": "/resources/financial-stability#food-pantries",
+            "entries": {
+              "bienvenidosFoodBank": {
+                "name": "Bienvenidos Food Bank",
+                "link": "https://bienvenidosfoodbank.org/",
+                "description": "The Bienvenidos Food Bank provides food resources to individuals and families in need.",
+                "location": "3810 Pecos Street Denver CO 80211",
+                "phone": "(303) 433-6328",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://bienvenidosfoodbank.org/"
+                }
+              },
+              "communityTable": {
+                "name": "Community Table",
+                "link": "https://cotable.org/",
+                "description": "The Community Table provides food resources to individuals and families in need.",
+                "location": "8555 West 57th Avenue Arvada CO 80002",
+                "phone": "(303) 424-6685",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://cotable.org/"
+                }
+              },
+              "coloradoFoodPantries": {
+                "name": "Colorado Food Pantries",
+                "link": "https://www.foodpantries.org/st/colorado",
+                "description": "Colorado Food Pantries provides food resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(303) 371-9250",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.foodpantries.org/st/colorado"
+                }
+              },
+              "foodBankOfTheRockies": {
+                "name": "Food Bank of the Rockies",
+                "link": "https://www.foodbankrockies.org/",
+                "description": "The Food Bank of the Rockies provides food resources to individuals and families in need.",
+                "location": "10700 East 45th Avenue Denver CO 80239",
+                "phone": "(303) 371-9250",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.foodbankrockies.org/"
+                }
+              },
+              "hungerFreeColorado": {
+                "name": "Hunger Free Colorado",
+                "link": "https://www.hungerfreecolorado.org/",
+                "description": "Hunger Free Colorado provides food resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(855) 855-4626",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.hungerfreecolorado.org/"
+                }
+              }
+            }
+          },
+          "legalResources": {
+            "name": "Legal Resources",
+            "link":"/resources/financial-stability#legal-resources",
+            "entries": {
+              "coloradoDivisionofVeteransAffairs": {
+                "name": "Colorado Division of Veterans Affairs (CDVA)",
+                "link": "https://vets.colorado.gov/",
+                "description": "Offering free assistance to veterans and their family members, with claims, applications, and appeals to the VA.",
+                "location": "Bill Daniels Veteran Service Center 1247 Santa Fe Denver, CO 80204",
+                "phone": "(303) 476-0048",
+                "button": {
+                  "text":"VIEW WEBSITE",
+                  "link": "https://vets.colorado.gov/"
+                }
+              },
+              "coloradoLegalServices": {
+                "name": "Colorado Legal Services",
+                "link": "https://www.coloradolegalservices.org/node/327/contact-colorado-legal-services",
+                "description": "Provides legal support in family law cases such as divorce, custody, child support, domestic abuse, as well as wills, probate, power of attorney, housing, public benefit, foreclosure, consumer, and tax related issues.",
+                "location": "1905 Sherman St., Suite 300, Denver 80203",
+                "phone": "(303) 837-1313",
+                "button": {
+                  "text":"VIEW WEBSITE",
+                  "link": "https://www.coloradolegalservices.org/node/327/contact-colorado-legal-services"
+                }
+              },
+              "disabilityLawColorado": {
+                "name": "Disability Law Colorado",
+                "link": "https://disabilitylawco.org/",
+                "description": "Protection & Advocacy System for Colorado. We work to protect disability rights and improve the human, civil, and legal rights of Coloradans through legal representation, advocacy, and education.",
+                "location": "455 Sherman St. Suite 130, Denver, Co.",
+                "phone": "(303) 722-0300",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://disabilitylawco.org/"
+                }
+              },
+              "denverIRCVitaProgram": {
+                "name": "Denver IRC Vita Program",
+                "link": "http://www.coloradovita.org",
+                "description": "Offers Free tax assistance to individuals who earn less than $60,000 annually. Preparers are free, trained and certified by the Internal Revenue Service (IRS) and will help you claim all available tax credits.",
+                "location": "ICR Denver 1873 S. Bellaire St., Suite 500, Denver, Co. 80222",
+                "phone": "(720) 772-6841",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "http://www.coloradovita.org"
+                }
+              },
+              "legalAidFoundationOfColorado": {
+                "name": "Legal Aid Foundation of Colorado",
+                "link": "https://www.legalaidfoundation.org/",
+                "description": "Colorado’s statewide Legal Aid program. CLS is the only agency in the state that provides free legal services in civil cases to clients who could not otherwise afford them in every Colorado county through a network of 13 offices.",
+                "location": "1120 Lincoln St., Suite 701 Denver, CO  80203",
+                "phone": "(303) 863-9544",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.legalaidfoundation.org/"
+                }
+              }
+            }
           }
         }
       }
