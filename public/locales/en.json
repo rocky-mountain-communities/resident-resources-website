@@ -252,6 +252,194 @@
             }
           }
         }
+      },
+      "financial-stability": {
+        "name": "Financial Stability",
+        "subcategories": {
+          "employmentResources": {
+            "name": "Employment Resources",
+            "link": "/resources/financial-stability#employment-resources",
+            "entries": {
+              "centerForWorkEducationAndEmployment": {
+                "name": "Center for Work Education and Employment",
+                "link": "https://www.cwee.org/",
+                "description": "The Center for Work Education and Employment provides employment resources to individuals and families in need.",
+                "location": "1175 Osage Street Denver CO 80204",
+                "phone": "(303) 892-8444",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.cwee.org/"
+                }
+              },
+              "coloradoWorkforceCenter": {
+                "name": "Colorado Workforce Center",
+                "link": "https://www.colorado.gov/pacific/cdle/wfc",
+                "description": "The Colorado Workforce Center provides employment resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(303) 318-8000",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.colorado.gov/pacific/cdle/wfc"
+                }
+              },
+              "employmentAssistance": {
+                "name": "Employment Assistance",
+                "link": "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/office-of-economic-development.html",
+                "description": "Employment Assistance provides employment resources to individuals and families in need.",
+                "location": "1200 Federal Boulevard Denver CO 80204",
+                "phone": "(720) 944-3666",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/office-of-economic-development.html"
+                }
+              },
+              "employmentSolutions": {
+                "name": "Employment Solutions",
+                "link": "https://www.employmentsolutions.com/",
+                "description": "Employment Solutions provides employment resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(877) 880-4473",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.employmentsolutions.com/"
+                }
+              },
+              "primeSourceStaffing": {
+                "name": "Prime Source Staffing",
+                "link": "https://www.primesourcestaffing.com/",
+                "description": "Prime Source Staffing provides employment resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(303) 893-1400",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.primesourcestaffing.com/"
+                }
+              }
+            }
+          },
+          "foodPantries": {
+            "name": "Food Pantries",
+            "link": "/resources/financial-stability#food-pantries",
+            "entries": {
+              "bienvenidosFoodBank": {
+                "name": "Bienvenidos Food Bank",
+                "link": "https://bienvenidosfoodbank.org/",
+                "description": "The Bienvenidos Food Bank provides food resources to individuals and families in need.",
+                "location": "3810 Pecos Street Denver CO 80211",
+                "phone": "(303) 433-6328",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://bienvenidosfoodbank.org/"
+                }
+              },
+              "communityTable": {
+                "name": "Community Table",
+                "link": "https://cotable.org/",
+                "description": "The Community Table provides food resources to individuals and families in need.",
+                "location": "8555 West 57th Avenue Arvada CO 80002",
+                "phone": "(303) 424-6685",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://cotable.org/"
+                }
+              },
+              "coloradoFoodPantries": {
+                "name": "Colorado Food Pantries",
+                "link": "https://www.foodpantries.org/st/colorado",
+                "description": "Colorado Food Pantries provides food resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(303) 371-9250",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.foodpantries.org/st/colorado"
+                }
+              },
+              "foodBankOfTheRockies": {
+                "name": "Food Bank of the Rockies",
+                "link": "https://www.foodbankrockies.org/",
+                "description": "The Food Bank of the Rockies provides food resources to individuals and families in need.",
+                "location": "10700 East 45th Avenue Denver CO 80239",
+                "phone": "(303) 371-9250",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.foodbankrockies.org/"
+                }
+              },
+              "hungerFreeColorado": {
+                "name": "Hunger Free Colorado",
+                "link": "https://www.hungerfreecolorado.org/",
+                "description": "Hunger Free Colorado provides food resources to individuals and families in need.",
+                "location": "Online",
+                "phone": "(855) 855-4626",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.hungerfreecolorado.org/"
+                }
+              }
+            }
+          },
+          "legalResources": {
+            "name": "Legal Resources",
+            "link":"/resources/financial-stability#legal-resources",
+            "entries": {
+              "coloradoDivisionofVeteransAffairs": {
+                "name": "Colorado Division of Veterans Affairs (CDVA)",
+                "link": "https://vets.colorado.gov/",
+                "description": "Offering free assistance to veterans and their family members, with claims, applications, and appeals to the VA.",
+                "location": "Bill Daniels Veteran Service Center 1247 Santa Fe Denver, CO 80204",
+                "phone": "(303) 476-0048",
+                "button": {
+                  "text":"VIEW WEBSITE",
+                  "link": "https://vets.colorado.gov/"
+                }
+              },
+              "coloradoLegalServices": {
+                "name": "Colorado Legal Services",
+                "link": "https://www.coloradolegalservices.org/node/327/contact-colorado-legal-services",
+                "description": "Provides legal support in family law cases such as divorce, custody, child support, domestic abuse, as well as wills, probate, power of attorney, housing, public benefit, foreclosure, consumer, and tax related issues.",
+                "location": "1905 Sherman St., Suite 300, Denver 80203",
+                "phone": "(303) 837-1313",
+                "button": {
+                  "text":"VIEW WEBSITE",
+                  "link": "https://www.coloradolegalservices.org/node/327/contact-colorado-legal-services"
+                }
+              },
+              "disabilityLawColorado": {
+                "name": "Disability Law Colorado",
+                "link": "https://disabilitylawco.org/",
+                "description": "Protection & Advocacy System for Colorado. We work to protect disability rights and improve the human, civil, and legal rights of Coloradans through legal representation, advocacy, and education.",
+                "location": "455 Sherman St. Suite 130, Denver, Co.",
+                "phone": "(303) 722-0300",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://disabilitylawco.org/"
+                }
+              },
+              "denverIRCVitaProgram": {
+                "name": "Denver IRC Vita Program",
+                "link": "http://www.coloradovita.org",
+                "description": "Offers Free tax assistance to individuals who earn less than $60,000 annually. Preparers are free, trained and certified by the Internal Revenue Service (IRS) and will help you claim all available tax credits.",
+                "location": "ICR Denver 1873 S. Bellaire St., Suite 500, Denver, Co. 80222",
+                "phone": "(720) 772-6841",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "http://www.coloradovita.org"
+                }
+              },
+              "legalAidFoundationOfColorado": {
+                "name": "Legal Aid Foundation of Colorado",
+                "link": "https://www.legalaidfoundation.org/",
+                "description": "Colorado’s statewide Legal Aid program. CLS is the only agency in the state that provides free legal services in civil cases to clients who could not otherwise afford them in every Colorado county through a network of 13 offices.",
+                "location": "1120 Lincoln St., Suite 701 Denver, CO  80203",
+                "phone": "(303) 863-9544",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.legalaidfoundation.org/"
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
