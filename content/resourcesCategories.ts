@@ -45,7 +45,7 @@ export const resourceCategories = [
     ],
   },
   {
-    id: 'health-wellness',
+    id: 'health-and-wellness',
     name: 'Health & Wellness',
     topLinks: [
       {

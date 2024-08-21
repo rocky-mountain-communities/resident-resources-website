@@ -445,7 +445,7 @@
         "name": "Health & Wellness",
         "subcategories": {
           "addictionAndRecovery": {
-            "name": "Addiction and Recovery",
+            "name": "Addiction & Recovery",
             "link": "/resources/health-and-wellness#addiction-and-recovery",
             "entries": {
               "advocatesForRecovery": {
@@ -778,6 +778,45 @@
                 "button": {
                   "text": "VIEW WEBSITE",
                   "link": "https://centers.rainn.org/"
+                }
+              }
+            }
+          },
+          "miscellaneous": {
+            "name": "Miscellaneous",
+            "link": "/resources/health-and-wellness#miscellaneous",
+            "entries": {
+              "brotherJeffsCulturalCenter": {
+                "name": "Brother Jeff's Cultural Center",
+                "link": "https://brotherjeff.com/",
+                "description": "HIV Prevention Grassroots Initiative, offers HIV education/training, client advocacy, leadership development, support groups, prison re-re-entry, and food pantry.",
+                "location": "2836 Welton Street Denver CO 80205",
+                "phone": "(303) 297-0823",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://brotherjeff.com/"
+                }
+              },
+              "childFirst": {
+                "name": "Child First",
+                "link": "https://www.childfirstcolorado.org/",
+                "description": "Helps struggling families build strong, nurturing relationships that heal and protect young children from the devastating impact of trauma and chronic stress. Child First utilizes a two-generation approach, providing psychotherapy to parents and children together in their homes, and connecting them with the services they need to make healthy child development possible.",
+                "location": "Various",
+                "phone": "(833) 400- 4080",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.childfirstcolorado.org/"
+                }
+              },
+              "healthFirstColorado": {
+                "name": "Health First Colorado",
+                "link": "https://www.healthfirstcolorado.com/",
+                "description": "Health First Colorado (Colorado's Medicaid Program) is public health insurance for Coloradans who qualify. Health First Colorado is funded jointly by a federal-state partnership and is administered by the Department of Health Care Policy & Financing.",
+                "location": "Online",
+                "phone": "(800) 221-3943",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.healthfirstcolorado.com/"
                 }
               }
             }
