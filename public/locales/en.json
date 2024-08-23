@@ -822,6 +822,332 @@
             }
           }
         }
+      },
+      "youth-and-education": {
+        "name": "Youth & Education",
+        "subcategories": {
+          "childCareAssistanceAndPrograms": {
+            "name": "Child Care Assistance & Programs",
+            "link": "/resources/youth-and-education#child-care-assistance-and-programs",
+            "entries": {
+              "aPreciousChild": {
+                "name": "A Precious Child",
+                "link": "https://apreciouschild.org/",
+                "description": "Providing resources, opportunities and educational support to disadvantaged and displaced Colorado children and their families.",
+                "location": "7051 W. 118th Ave. Broomfield, CO 80020",
+                "phone": "(303) 466-4272",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://apreciouschild.org/"
+                }
+              },
+              "coloradoChildCareAssistanceProgram": {
+                "name": "Colorado Child Care Assistance Program",
+                "link": "https://cdec.colorado.gov/#!child-care-assistance-program/cu2m",
+                "description": "Childcare assistance program for families that are working, searching for employment or are in training; as well as families that are enrolled in the Colorado Works Program and need childcare services to support their efforts towards self-sufficiency.",
+                "location": "1710 S. Ash St., Denver, CO 80246",
+                "phone": "(800) 799-5876",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://cdec.colorado.gov/#!child-care-assistance-program/cu2m"
+                }
+              },
+              "childcareAssistanceProgramOptions": {
+                "name": "Childcare Assistance Program Options",
+                "link": "https://cdec.colorado.gov/colorado-child-care-assistance-program-for-families",
+                "description": "Provides childcare assistance to families needing childcare services to support their efforts toward self-sufficiency.",
+                "location": "11860 Pecos in Westminster",
+                "phone": "(720) 523-2337",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://cdec.colorado.gov/colorado-child-care-assistance-program-for-families"
+                }
+              },
+              "ymcaOutOfSchoolTimeCare": {
+                "name": "YMCA Out of School Time Care",
+                "link": "https://www.denverymca.org/",
+                "description": "The YMCA’s youth development programs are grounded in nearly 150 years of lifting up kids so they can reach their full potential. Our passionate staff work diligently to create a welcoming, fun and safe place where every child can thrive, learn and grow.",
+                "location": "Various",
+                "phone": "(720) 524-2792",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denverymca.org/"
+                }
+              },
+              "ymcaPreschoolProgram": {
+                "name": "YMCA Preschool Program",
+                "link": "https://denverymca.org/programs/youth-programs/y-academy-preschool",
+                "description": "Preschool program that enhances parent to parent staff interaction and engagement. Well-trained staff providing safe, affordable care. Financial assistance available.",
+                "location": "Various",
+                "phone": "(720) 524-2755",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://denverymca.org/programs/youth-programs/y-academy-preschool"
+                }
+              }
+            }
+          },
+          "earlyLearningProgramsAndScholarships": {
+            "name": "Early Learning Programs & Scholarships",
+            "link": "/resources/youth-and-education#early-learning-programs-and-scholarships",
+            "entries": {
+              "claytonEarlyLearning": {
+                "name": "Clayton Early Learning",
+                "link": "https://www.claytonearlylearning.org/",
+                "description": "Early Childhood Learning, Pre-school-in home services that offers a Community Ambassador Program. An innovation hub that fosters thriving, equitable communities by partnering with families to nurture a whole child, whole family approach to the early years, discover what works, and advance systems change.",
+                "location": "3801 Martin Luther King Blvd. Denver, CO 80205",
+                "phone": "(303) 355-4411",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.claytonearlylearning.org/"
+                }
+              },
+              "denverPreschoolProgram": {
+                "name": "Denver Preschool Program",
+                "link": "https://dpp.org/",
+                "description": "Offers tuition credits to every Denver family with a 4-year-old, as well as to a limited number of Denver families with a 3-year-old.",
+                "location": "305 Park Ave. West, Denver, CO 80205",
+                "phone": "(303) 595-4377",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://dpp.org/"
+                }
+              },
+              "mileHighMontessoriEarlyLearningCenters": {
+                "name": "Mile High Montessori Early Learning Centers",
+                "link": "https://milehighearlylearning.org/",
+                "description": "Providing a quality educational experience, inspired by the Montessori approach, for children farthest from resources. Early Childhood Education, Childcare, Day Care, Infants, Toddlers, Preschool. Montessori- inspired approach, STEM education and Head Start programs.",
+                "location": "616 Speer Blvd, Denver, CO 80203",
+                "phone": "(303) 861-2602",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://milehighearlylearning.org/"
+                }
+              },
+              "theHOPECenter": {
+                "name": "The HOPE Center",
+                "link": "https://www.hopecenterinc.org/",
+                "description": "Offers early childhood and vocational programs, the Hope Center lays the foundation for children to grow and adults to thrive.",
+                "location": "3400 Elizabeth St., Denver, CO 80205",
+                "phone": "(303) 388-4801",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.hopecenterinc.org/"
+                }
+              }
+            }
+          },
+          "GED": {
+            "name": "GED",
+            "link": "/resources/youth-and-education#ged",
+            "entries": {
+                "gedTesting@FrontRangeCommunityCollege": {
+                "name": "GED Testing @ Front Range Community College",
+                "link": "https://www.frontrange.edu/",
+                "description": "GED Testing @ Front Range Community College offers GED testing services to individuals in need.",
+                "location": "Various",
+                "phone": "(303) 404-5301",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.frontrange.edu/programs-courses/ged-testing/index.html"
+                }
+              },
+              "theLearningSource": {
+                "name": "The Learning Source",
+                "link": "https://www.thelearningsource.org/classes/ged-classes",
+                "description": "The Learning Source provides educational resources to individuals and families in need.",
+                "location": "929 29th Street Denver, CO 80205",
+                "phone": "(303) 957-2838",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.thelearningsource.org/classes/ged-classes"
+                }
+              }
+            }
+          },
+          "higherEducation": {
+            "name": "Higher Education",
+            "link": "/resources/youth-and-education#higher-education",
+            "entries": {
+              "coloradoDepartmentOfHigherEducation": {
+                "name": "Colorado Department of Higher Education",
+                "link": "https://highered.colorado.gov/",
+                "description": "Various resources for education, scholarships, financial aid, stipends, load forgiveness, grants, ect.",
+                "location": "1600 Broadway, Suite 2200 Denver, CO 80202",
+                "phone": "(303) 862-3001",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://highered.colorado.gov/"
+                }
+              },
+              "communityCollegeOfDenver": {
+                "name": "Community College of Denver",
+                "link": "https://www.ccd.edu/",
+                "description": "Fully accredited two-year college offering in-person, remote and on-line classes.",
+                "location": "800 Curtis Street Denver, CO 80204",
+                "phone": "(303) 556-2600",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.ccd.edu/"
+                }
+              },
+              "frontRangeCommunityCollege": {
+                "name": "Front Range Community College",
+                "link": "https://www.frontrange.edu/",
+                "description": "Fully accredited two-year college offering in-person, remote and on-line classes out of three locations.",
+                "location": "Various",
+                "phone": "(303) 404-5089",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.frontrange.edu/"
+                }
+              },
+              "metropolitanStateUniversityOfDenver": {
+                "name": "Metropolitan State University of Denver",
+                "link": "https://www.msudenver.edu/",
+                "description": "Fully accredited college offering both undergraduate and graduate degree programs.",
+                "location": "890 Auraria Parkway Denver, CO 80204",
+                "phone": "(303) 556-5740",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.msudenver.edu/"
+                }
+              },
+              "universityOfColoradoDenver": {
+                "name": "University of Colorado Denver",
+                "link": "https://www.ucdenver.edu/",
+                "description": "Fully accredited college offering both undergraduate and graduate degree programs.",
+                "location": "1201 Larimer ST. Denver, Co. 80204",
+                "phone": "(303) 315-5969",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.ucdenver.edu/"
+                }
+              },
+              "federalStudentAid": {
+                "name": "Federal Student Aid",
+                "link": "https://studentaid.gov/h/apply-for-aid/fafsa",
+                "description": "Federal Student Aid, a part of the U.S. Department of Education, is the largest provider of student financial aid in the nation. At the office of Federal Student Aid, our more than 1,300 employees help make college education possible for every dedicated mind by providing more than $120 billion in federal grants, loans, and work-study funds each year to more than 13 million students paying for college or career school.",
+                "location": "Online",
+                "phone": "(800) 433-3243",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://studentaid.gov/h/apply-for-aid/fafsa"
+                }
+              }
+            }
+          }
+        }
+      },
+      "additional-resources": {
+        "name": "Additional Resources",
+        "subcategories": {
+          "clothing": {
+            "name": "Clothing",
+            "link": "/resources/additional-resources#clothing",
+            "entries": {
+              "bridgetsBoutique": {
+                "name": "Bridget's Boutique",
+                "link": "https://tgpdenver.org/what-we-do/bridgets-boutique-old.html",
+                "description": "Bridget's Boutique is a non-profit organization that provides clothing to individuals in need.",
+                "location": "Call for location",
+                "phone": "(303) 996-9046",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://tgpdenver.org/what-we-do/bridgets-boutique-old.html"
+                }
+              },
+              "clothesToKids": {
+                "name": "Clothes To Kids",
+                "link": "https://clothestokidsdenver.org/",
+                "description": "Provides new and quality used clothing to students from low-income or in-crisis families in the Denver Metro Area, free of charge.",
+                "location": "2890 S. Colorado Blvd. Denver, CO 80222",
+                "phone": "(720) 379-4630",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://clothestokidsdenver.org/"
+                }
+              },
+              "dressForSuccess": {
+                "name": "Dress For Success",
+                "link": "https://denver.dressforsuccess.org/",
+                "description": "The mission for Dress for Success is to empower women to achieve economic independence by providing a network of support, professional attire and the development tools to help women thrive in work and in life.",
+                "location": "2594 South Colorado Boulevard Denver, Colorado 80222",
+                "phone": "(303) 832-1889",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://denver.dressforsuccess.org/"
+                }
+              }
+            }
+          },
+          "LGBTQ": {
+            "name": "LGBTQ",
+            "link": "/resources/additional-resources#lgbtq",
+            "entries": {
+              "oneColorado": {
+                "name": "One Colorado",
+                "link": "https://one-colorado.org/",
+                "description": "The state’s leading advocacy organization dedicated to advancing equality for lesbian, gay, bisexual, transgender, and queer (LGBTQ+) Coloradans and their families.",
+                "location": "303 E. 17th Ave. Denver, CO. 80203",
+                "phone": "(303) 396-6170",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://one-colorado.org/"
+                }
+              },
+              "theCenter": {
+                "name": "The Center",
+                "link": "https://lgbtqcolorado.org/",
+                "description": "Gives voice to Colorado's lesbian, gay, bisexual, transgender, and queer (LGBTQ) community and playing a pivotal role in statewide initiatives to reduce harassment and discrimination. Provides mental health, crisis, youth programs/tutoring, adult & young adult programs, transgender support, legal support and more!",
+                "location": "1301 E. Colfax Ave. Denver, CO 80218",
+                "phone": "(303) 733-7743",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://lgbtqcolorado.org/"
+                }
+              },
+              "transgenderCenterOfTheRockies": {
+                "name": "Transgender Center of The Rockies",
+                "link": "https://www.transgendercenteroftherockies.org/",
+                "location": "3469 S. Federal Blvd. Sheridan, Co. 80110",
+                "phone": "(303) 761-0200",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.transgendercenteroftherockies.org/"
+                }
+              }
+            }
+          },
+          "miscellaneous": {
+            "name": "Miscellaneous",
+            "link": "/resources/additional-resources#miscellaneous",
+            "entries": {
+              "211": {
+                "name": "211",
+                "link": "https://211colorado.communityos.org/",
+                "description": "211 is a confidential and multilingual service connecting people to vital resources across the state. No matter where you live in Colorado, you can find information about resources in your local community.",
+                "location": "Online",
+                "phone": "211",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://211colorado.communityos.org/"
+                }
+              },
+              "benefitsInAction": {
+                "name": "Benefits In Action",
+                "link": "https://benefitsinaction.org/",
+                "description": "Striving to increase understanding, access, and utilization of healthcare resources. Our team of navigators works with individuals to help them recognize the health-related benefits they qualify for, apply to those benefits, and utilize them as effectively as possible.",
+                "location": "12157 W Cedar Dr, Suite 100 Lakewood, CO 80228",
+                "phone": "(720) 221-8354",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://benefitsinaction.org/"
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
