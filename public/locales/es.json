@@ -42,10 +42,6 @@
     "subheading": "Encuentra los recursos que necesitas para prosperar en tu comunidad.",
     "viewMoreResources": "VER MÁS RECURSOS",
     "categories": {
-       "financial-stability": {
-        "name": "Estabilidad-financiera",
-        "path": "financial-stability"   
-       },
       "housing-stability": {
         "path": "housing-stability",
         "name": "Estabilidad de Vivienda",
@@ -257,7 +253,193 @@
         }
       },
       "financial-stability": {
-    
+        "path": "financial-stability",
+        "name": "Estabilidad-Financiera",
+        "subcategories": {
+          "employmentResources": {
+            "name": "Recursos de Empleo",
+            "link": "/resources/financial-stability#employment-resources",
+            "entries": {
+              "centerForWorkEducationAndEmployment": {
+                "name": "Centro para la Educación y el Empleo",
+                "link": "https://www.cwee.org/",
+                "description": "El Centro para la Educación y el Empleo proporciona recursos de empleo a individuos y familias necesitadas.",
+                "location": "1175 Osage Street Denver CO 80204",
+                "phone": "(303) 892-8444",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.cwee.org/"
+                }
+              },
+              "coloradoWorkforceCenter": {
+                "name": "Centro de Fuerza Laboral de Colorado",
+                "link": "https://www.colorado.gov/pacific/cdle/wfc",
+                "description": "El Centro de Fuerza Laboral de Colorado proporciona recursos de empleo a individuos y familias necesitadas.",
+                "location": "En línea",
+                "phone": "(303) 318-8000",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.colorado.gov/pacific/cdle/wfc"
+                }
+              },
+              "employmentAssistance": {
+                "name": "Asistencia de Empleo",
+                "link": "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/office-of-economic-development.html",
+                "description": "La Asistencia de Empleo proporciona recursos de empleo a individuos y familias necesitadas.",
+                "location": "1200 Federal Boulevard Denver CO 80204",
+                "phone": "(720) 944-3666",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.denvergov.org/content/denvergov/en/human-rights-and-community-partnerships/office-of-economic-development.html"
+                }
+              },
+              "employmentSolutions": {
+                "name": "Soluciones de Empleo",
+                "link": "https://www.employmentsolutions.com/",
+                "description": "Soluciones de Empleo proporciona recursos de empleo a individuos y familias necesitadas.",
+                "location": "En línea",
+                "phone": "(877) 880-4473",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.employmentsolutions.com/"
+                }
+              },
+              "primeSourceStaffing": {
+                "name": "Prime Source Staffing",
+                "link": "https://www.primesourcestaffing.com/",
+                "description": "Prime Source Staffing proporciona recursos de empleo a individuos y familias necesitadas.",
+                "location": "En línea",
+                "phone": "(303) 893-1400",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.primesourcestaffing.com/"
+                }
+              }
+            }
+          },
+          "foodPantries": {
+            "name": "Despensas de Alimentos",
+            "link": "/resources/financial-stability#food-pantries",
+            "entries": {
+              "bienvenidosFoodBank": {
+                "name": "Banco de Alimentos Bienvenidos",
+                "link": "https://bienvenidosfoodbank.org/",
+                "description": "El Banco de Alimentos Bienvenidos proporciona recursos alimentarios a individuos y familias necesitadas.",
+                "location": "3810 Pecos Street Denver CO 80211",
+                "phone": "(303) 433-6328",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://bienvenidosfoodbank.org/"
+                }
+              },
+              "communityTable": {
+                "name": "Mesa Comunitaria",
+                "link": "https://cotable.org/",
+                "description": "La Mesa Comunitaria proporciona recursos alimentarios a individuos y familias necesitadas.",
+                "location": "8555 West 57th Avenue Arvada CO 80002",
+                "phone": "(303) 424-6685",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://cotable.org/"
+                }
+              },
+              "coloradoFoodPantries": {
+                "name": "Despensas de Alimentos de Colorado",
+                "link": "https://www.foodpantries.org/st/colorado",
+                "description": "Las Despensas de Alimentos de Colorado proporcionan recursos alimentarios a individuos y familias necesitadas.",
+                "location": "En línea",
+                "phone": "(303) 371-9250",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.foodpantries.org/st/colorado"
+                }
+              },
+              "foodBankOfTheRockies": {
+                "name": "Banco de Alimentos de las Rocosas",
+                "link": "https://www.foodbankrockies.org/",
+                "description": "El Banco de Alimentos de las Rocosas proporciona recursos alimentarios a individuos y familias necesitadas.",
+                "location": "10700 East 45th Avenue Denver CO 80239",
+                "phone": "(303) 371-9250",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.foodbankrockies.org/"
+                }
+              },
+              "hungerFreeColorado": {
+                "name": "Colorado Sin Hambre",
+                "link": "https://www.hungerfreecolorado.org/",
+                "description": "Colorado Sin Hambre proporciona recursos alimentarios a individuos y familias necesitadas.",
+                "location": "En línea",
+                "phone": "(855) 855-4626",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.hungerfreecolorado.org/"
+                }
+              }
+            }
+          },
+          "legalResources": {
+            "name": "Recursos Legales",
+            "link":"/resources/financial-stability#legal-resources",
+            "entries": {
+              "coloradoDivisionofVeteransAffairs": {
+                "name": "División de Asuntos de Veteranos de Colorado (CDVA)",
+                "link": "https://vets.colorado.gov/",
+                "description": "Ofrece asistencia gratuita a veteranos y sus familiares con reclamos, solicitudes y apelaciones al VA.",
+                "location": "Centro de Servicios para Veteranos Bill Daniels 1247 Santa Fe Denver, CO 80204",
+                "phone": "(303) 476-0048",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://vets.colorado.gov/"
+                }
+              },
+              "coloradoLegalServices": {
+                "name": "Servicios Legales de Colorado",
+                "link": "https://www.coloradolegalservices.org/node/327/contact-colorado-legal-services",
+                "description": "Proporciona apoyo legal en casos de derecho de familia como divorcio, custodia, manutención infantil, abuso doméstico, así como testamentos, sucesiones, poderes notariales, vivienda, beneficios públicos, ejecuciones hipotecarias, consumo e impuestos.",
+                "location": "1905 Sherman St., Suite 300, Denver 80203",
+                "phone": "(303) 837-1313",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.coloradolegalservices.org/node/327/contact-colorado-legal-services"
+                }
+              },
+              "disabilityLawColorado": {
+                "name": "Ley de Discapacidad de Colorado",
+                "link": "https://disabilitylawco.org/",
+                "description": "Sistema de Protección y Defensa para Colorado. Trabajamos para proteger los derechos de discapacidad y mejorar los derechos humanos, civiles y legales de los habitantes de Colorado a través de la representación legal, la defensa y la educación.",
+                "location": "455 Sherman St. Suite 130, Denver, Co.",
+                "phone": "(303) 722-0300",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://disabilitylawco.org/"
+                }
+              },
+              "denverIRCVitaProgram": {
+                "name": "Programa Vita IRC Denver",
+                "link": "http://www.coloradovita.org",
+                "description": "Ofrece asistencia gratuita con impuestos a individuos que ganan menos de $60,000 al año. Los preparadores son gratuitos, capacitados y certificados por el Servicio de Impuestos Internos (IRS) y lo ayudarán a reclamar todos los créditos fiscales disponibles.",
+                "location": "ICR Denver 1873 S. Bellaire St., Suite 500, Denver, Co. 80222",
+                "phone": "(720) 772-6841",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "http://www.coloradovita.org"
+                }
+              },
+              "legalAidFoundationOfColorado": {
+                "name": "Fundación de Asistencia Legal de Colorado",
+                "link": "https://www.legalaidfoundation.org/",
+                "description": "Programa de Asistencia Legal estatal de Colorado. CLS es la única agencia en el estado que brinda servicios legales gratuitos en casos civiles a clientes que no podrían pagarlos en todos los condados de Colorado a través de una red de 13 oficinas.",
+                "location": "1120 Lincoln St., Suite 701 Denver, CO  80203",
+                "phone": "(303) 863-9544",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.legalaidfoundation.org/"
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
