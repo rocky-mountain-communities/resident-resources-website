@@ -1319,6 +1319,67 @@
                 }
               }
             }
+          },
+          "seniorResources": {
+            "name": "Recursos para Personas Mayores",
+            "link": "/resources/additional-resources#senior-resources",
+            "entries": {
+              "agingAndDisabilityResources": {
+                "name": "Recursos para Envejecimiento y Discapacidad",
+                "link": "https://drcog.org/area-agency-aging/aging-disability-resource-center#:~:text=DRCOG%20is%20one%20of%2014%20ADRC%20sites%20in%20Colorado.&text=Family%20members%2C%20caregivers%2C%20friends%2C,calling%20303%2D480%2D6700",
+                "description": "Proporciona información y recursos para adultos mayores y adultos con discapacidades.",
+                "location": "1001 17th Street, Suite 700, Denver, CO 80202",
+                "phone": "(303) 480-6700",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://drcog.org/area-agency-aging/aging-disability-resource-center#:~:text=DRCOG%20is%20one%20of%2014%20ADRC%20sites%20in%20Colorado.&text=Family%20members%2C%20caregivers%2C%20friends%2C,calling%20303%2D480%2D6700"
+                }
+              },
+              "alert1": {
+                "name": "Alert-1",
+                "link": "https://www.alert-1.com/",
+                "description": "Ofrece sistemas de alerta médica en el hogar y móviles para personas mayores y otras que buscan la seguridad y protección que proporciona un botón de emergencia personal. Nuestros colgantes, pulseras y relojes de alerta médica, asequibles y fáciles de usar, ofrecen tranquilidad confiable para usted o sus seres queridos, 24/7/365.",
+                "location": "En línea",
+                "phone": "(888) 294-7516",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.alert-1.com/"
+                }
+              },
+              "alpineHomecare": {
+                "name": "Cuidado en el Hogar Alpine",
+                "link": "https://www.alpinehomecare.com/",
+                "description": "Ofrece soluciones no médicas asequibles / gratuitas para clientes de Medicaid, para individuos o parejas que necesitan cuidado y apoyo, pero prefieren permanecer en casa.",
+                "location": "10200 E. Girard, Bld. A, Suite 118 - Denver, Co 80231",
+                "phone": "(303) 309-6202",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.alpinehomecare.com/"
+                }
+              },
+              "seniorsAssistanceCenter": {
+                "name": "Centro de Asistencia para Personas Mayores",
+                "link": "https://seniorassistancecenter.org/",
+                "description": "Promueve la autosuficiencia de los adultos mayores en Denver proporcionando servicios necesarios para la vida con el objetivo final de ayudar a los clientes a encontrar situaciones de vida estables y sostenibles.",
+                "location": "4255 Jason St Ste 120 Denver CO 80211",
+                "phone": "(303) 455-9642",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://seniorassistancecenter.org/"
+                }
+              },
+              "seniorsResourceCenter": {
+                "name": "Centro de Recursos para Personas Mayores",
+                "link": "https://www.srcaging.org/",
+                "description": "La organización sin fines de lucro más grande del área de Denver dedicada a los servicios para adultos mayores, sus familias y sus cuidadores. Nuestros programas cruciales incluyen programas diurnos para adultos, cuidado en el hogar, tareas, gestión de cuidados, defensa de los mayores y mucho más.",
+                "location": "3227 Chase Street Wheat Ridge, Co. 80212",
+                "phone": "(303) 238-8151",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.srcaging.org/"
+                }
+              }
+            }
           }
         }
       }
