@@ -1269,6 +1269,56 @@
                 }
               }
             }
+          },
+          "petResources": {
+            "name": "Recursos para Mascotas",
+            "link": "/resources/additional-resources#pet-resources",
+            "entries": {
+              "animalShelters": {
+                "name": "Refugios de Animales",
+                "link": "https://www.denvergov.org/content/denvergov/en/denver-animal-shelter.html",
+                "description": "Proporciona refugio y cuidado para animales perdidos y abandonados, hace cumplir las ordenanzas de animales del condado de Denver y ofrece adopciones de mascotas.",
+                "location": "Varios",
+                "phone": "Varios en Colorado",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.denvergov.org/content/denvergov/en/denver-animal-shelter.html"
+                }
+              },
+              "coloradoPetPantry": {
+                "name": "Despensa de Mascotas de Colorado",
+                "link": "https://www.coloradopetpantry.org/",
+                "description": "La Despensa de Mascotas de Colorado es un banco de alimentos para mascotas que ayuda a las familias a alimentar a sus mascotas.",
+                "location": "Varios en Colorado",
+                "phone": "Varios en Colorado",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.coloradopetpantry.org/"
+                }
+              },
+              "petNeeds": {
+                "name": "Necesidades de Mascotas",
+                "link": "https://www.denvergov.org/Community/Housing/Housing-Homelessness-Guide/Pet-Assistance",
+                "description": "Encuentra refugio temporal para tu mascota y obtén atención veterinaria gratuita, alimentos para mascotas y suministros. También ofrecemos algunas opciones de refugio limitadas que permiten que las mascotas se queden contigo.",
+                "location": "Varios en Colorado",
+                "phone": "Varios en Colorado",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.denvergov.org/Community/Housing/Housing-Homelessness-Guide/Pet-Assistance"
+                }
+              },
+              "pawsCo": {
+                "name": "PawsCo",
+                "link": "https://pawsco.org/temporary-assistance",
+                "description": "PawsCo es una organización sin fines de lucro 501(c)3 dedicada a reducir la sobrepoblación de mascotas con un enfoque integral.",
+                "location": "Varios en Colorado",
+                "phone": "(720) 675-8758",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://pawsco.org/temporary-assistance"
+                }
+              }
+            }
           }
         }
       }
