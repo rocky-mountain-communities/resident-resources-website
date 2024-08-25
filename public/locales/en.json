@@ -1267,6 +1267,56 @@
                 }
               }
             }
+          },
+          "petResources": {
+            "name": "Pet Resources",
+            "link": "/resources/additional-resources#pet-resources",
+            "entries": {
+              "animalShelters": {
+                "name": "Animal Shelters",
+                "link": "https://www.denvergov.org/content/denvergov/en/denver-animal-shelter.html",
+                "description": "Provides shelter and care for lost and abandoned animals, enforces Denver County animal ordinances, and provides pet adoptions.",
+                "location": "Various",
+                "phone": "Various throughout Colorado",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/content/denvergov/en/denver-animal-shelter.html"
+                }
+              },
+              "coloradoPetPantry": {
+                "name": "Colorado Pet Pantry",
+                "link": "https://www.coloradopetpantry.org/",
+                "description": "Colorado Pet Pantry is a pet food bank that helps families feed their pets.",
+                "location": "Various throughout Colorado",
+                "phone": "Various throughout Colorado",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.coloradopetpantry.org/"
+                }
+              },
+              "petNeeds": {
+                "name": "Pet Needs",
+                "link": "https://www.denvergov.org/Community/Housing/Housing-Homelessness-Guide/Pet-Assistance",
+                "description": "Find temporary shelter for your pet, and get free veterinary care, pet food, and supplies. We also offer some limited shelter options that allow pets to stay with you.",
+                "location": "Various throughout Colorado",
+                "phone": "Various throughout Colorado",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/Community/Housing/Housing-Homelessness-Guide/Pet-Assistance"
+                }
+              },
+              "pawsCo": {
+                "name": "PawsCo",
+                "link": "https://pawsco.org/temporary-assistance",
+                "description": "PawsCo is a 501(c)3 nonprofit dedicated to reducing pet overpopulation with a comprehensive approach.",
+                "location": "Various throughout Colorado",
+                "phone": "(720) 675-8758",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://pawsco.org/temporary-assistance"
+                }
+              }
+            }
           }
         }
       }
