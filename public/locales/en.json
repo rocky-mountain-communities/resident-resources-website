@@ -1317,6 +1317,67 @@
                 }
               }
             }
+          },
+          "seniorResources": {
+            "name": "Senior Resources",
+            "link": "/resources/additional-resources#senior-resources",
+            "entries": {
+              "agingAndDisabilityResources": {
+                "name": "Aging and Disability Resources",
+                "link": "https://drcog.org/area-agency-aging/aging-disability-resource-center#:~:text=DRCOG%20is%20one%20of%2014%20ADRC%20sites%20in%20Colorado.&text=Family%20members%2C%20caregivers%2C%20friends%2C,calling%20303%2D480%2D6700",
+                "description": "Provides information and resources for older adults and adults with disabilities.",
+                "location": "1001 17th Street, Suite 700, Denver, CO 80202",
+                "phone": "(303) 480-6700",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://drcog.org/area-agency-aging/aging-disability-resource-center#:~:text=DRCOG%20is%20one%20of%2014%20ADRC%20sites%20in%20Colorado.&text=Family%20members%2C%20caregivers%2C%20friends%2C,calling%20303%2D480%2D6700"
+                }
+              },
+              "alert1": {
+                "name": "Alert-1",
+                "link": "https://www.alert-1.com/",
+                "description": "Offers in-home and mobile medical alert systems for seniors and others looking for the security and protection that a personal emergency button alarm provides. Our affordable, easy to use medical alert pendants, bracelets, and watches offer reliable peace of mind for you or your loved ones, 24/7/365.",
+                "location": "Online",
+                "phone": "(888) 294-7516",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.alert-1.com/"
+                }
+              },
+              "alpineHomecare": {
+                "name": "Alpine Homecare",
+                "link": "https://www.alpinehomecare.com/",
+                "description": "Offers affordable / free for Medicaid clients, non-medical solutions for individuals or couples who need care and support, but prefer to remain at home.",
+                "location": "10200 E. Girard, Bld. A, Suite 118 - Denver, Co 80231",
+                "phone": "(303) 309-6202",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.alpinehomecare.com/"
+                }
+              },
+              "seniorsAssistanceCenter": {
+                "name": "Seniors Assistance Center",
+                "link": "https://seniorassistancecenter.org/",
+                "description": "Promotes the self-sufficiency of older adults in Denver by providing necessity-of-life services with the ultimate goal of helping clients find stable, sustainable living situations.",
+                "location": "4255 Jason St Ste 120 Denver CO 80211",
+                "phone": "(303) 455-9642",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://seniorassistancecenter.org/"
+                }
+              },
+              "seniorsResourceCenter": {
+                "name": "Seniors Resource Center",
+                "link": "https://www.srcaging.org/",
+                "description": "Denver Area’s largest nonprofit dedicated to services for older adults, their families, and their caregivers. Our crucial programs include adult day programs, in-home care, chores, care management, senior advocacy and much more.",
+                "location": "3227 Chase Street Wheat Ridge, Co. 80212",
+                "phone": "(303) 238-8151",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.srcaging.org/"
+                }
+              }
+            }
           }
         }
       }
