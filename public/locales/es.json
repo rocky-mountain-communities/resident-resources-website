@@ -1146,6 +1146,127 @@
                   "text": "VER SITIO WEB",
                   "link": "https://benefitsinaction.org/"
                 }
+              },
+              "bioOneDenverMetroHoarding": {
+                "name": "Bio-One Denver Metro Hoarding",
+                "link": "https://www.bioonecolorado.com/hoarding/",
+                "description": "Ayuda con limpieza de acumulación 24/7 de una empresa local de Colorado con compasión, discreción y experiencia inigualables para los trabajos de acumulación más desafiantes.",
+                "location": "303 S. Broadway STE. 200-482 Denver, CO. 80209",
+                "phone": "(720) 365-2393",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.bioonecolorado.com/hoarding/"
+                }
+              },
+              "coloradoFamilyLifeCenter": {
+                "name": "Colorado Family Life Center",
+                "link": "https://www.coloradofamilylife.org/",
+                "description": "Ministerio basado en la fe, sin fines de lucro, que sirve a cualquier persona, en cualquier lugar, en cualquier momento con acceso a clases GRATUITAS sobre embarazo, parto, primer año, niñez temprana, crianza general, habilidades para la vida, paternidad, co-crianza, habilidades de relación, circunstancias especiales y estudios bíblicos sencillos para quienes estén interesados.",
+                "location": "651 Chambers Road, Suite 204, Aurora, CO. 80011",
+                "phone": "(303) 366-1072",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.coloradofamilylife.org/"
+                }
+              },
+              "coloradoLifelineAndAffordableConnectivityProgram": {
+                "name": "Colorado Lifeline and Affordable Connectivity Program",
+                "link": "https://www.truconnect.com/states/colorado",
+                "description": "Ofrece un descuento mensual de hasta $30 (hasta $75 si vives en tierras tribales calificadas) en tus servicios de banda ancha mensuales si tu hogar es elegible. Parte de los beneficios del ACP incluye un descuento único de hasta $100 para un dispositivo conectado capaz de internet como una tableta, computadora portátil o computadora de escritorio. Se requiere que pagues un copago de entre $10 y $50 hacia el dispositivo conectado.",
+                "location": "En línea",
+                "phone": "(303) 894-7855",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.truconnect.com/states/colorado"
+                }
+              },
+              "denverHumanServices": {
+                "name": "Denver Human Services",
+                "link": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Denver-Human-Services",
+                "description": "Proporciona asistencia alimentaria, Medicaid, asistencia financiera con alquiler y cuidado infantil, facturas de energía, junto con otros servicios.",
+                "location": "2929 W. 10th Ave, Denver CO 80204",
+                "phone": "(720) 944-4347",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Denver-Human-Services"
+                }
+              },
+              "familyTree": {
+                "name": "Family Tree",
+                "link": "https://www.thefamilytree.org/",
+                "description": "Comprometido a abordar los problemas interconectados del abuso infantil, la violencia doméstica y la falta de hogar. Family Tree trabaja junto a personas afectadas por el abuso infantil, la violencia doméstica y la falta de hogar a lo largo de su camino hacia la seguridad y la independencia económica, proporcionando servicios residenciales de emergencia, gestión de casos y defensa, servicios terapéuticos, apoyo en el alcance, búsqueda y colocación de vivienda, apoyo educativo y laboral, entre muchos otros servicios.",
+                "location": "Varios",
+                "phone": "(303) 422-2133",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.thefamilytree.org/"
+                }
+              },
+              "ministryOutreachCenter": {
+                "name": "Ministry Outreach Center",
+                "link": "https://denverrescuemission.org/who-we-are/locations/ministry-outreach-center/",
+                "description": "Proporciona alimentos, ropa, muebles e artículos para el hogar a quienes lo necesiten.",
+                "location": "5725 E 39th Ave, Denver, CO 80207",
+                "phone": "(303) 297-1815",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://denverrescuemission.org/who-we-are/locations/ministry-outreach-center/"
+                }
+              },
+              "serviciosDeLaRaza": {
+                "name": "Servicios De La Raza",
+                "link": "https://serviciosdelaraza.org/",
+                "description": "Se enfoca en construir y cultivar una próspera comunidad latina de Colorado, ofrece asesoramiento laboral/financiero, servicios de VIH/ETS, servicios para víctimas, apoyo en acceso a salud/comportamiento, servicios de reintegración (ayuda a personas previamente encarceladas a obtener empleo, habilidades educativas, mentoría).",
+                "location": "Varios",
+                "phone": "(303) 458-5851",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://serviciosdelaraza.org/"
+                }
+              },
+              "theGatheringPlace": {
+                "name": "The Gathering Place",
+                "link": "https://tgpdenver.org/",
+                "description": "Ofrece servicios para combatir la pobreza y abordar los impactos de la marginalización y opresión que a menudo son factores contribuyentes a la pobreza o la falta de hogar. Al ofrecer acceso sin barreras a una amplia gama de necesidades básicas y opciones de atención integral, TGP guía a mujeres, personas transgénero y no binarias, y niños que viven en pobreza desde un lugar de crisis e inestabilidad hacia uno de estabilidad y seguridad.",
+                "location": "1535 High St. Denver, CO 80218",
+                "phone": "(303) 321-4198",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://tgpdenver.org/"
+                }
+              },
+              "theSalvationArmy": {
+                "name": "The Salvation Army",
+                "link": "https://www.salvationarmyusa.org/usn/location-search?location=denver",
+                "description": "Diversos servicios para adicciones y recuperación, falta de hogar, programas comunitarios y de alimentos, programas de prisión y adoración, programas juveniles, habilidades para la vida, programas de asistencia, etc.",
+                "location": "Varios",
+                "phone": "(303) 860-5460",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.salvationarmyusa.org/usn/location-search?location=denver"
+                }
+              },
+              "theWomensFoundationOfColorado": {
+                "name": "The Women's Foundation of Colorado",
+                "link": "https://cdle.colorado.gov/wfc",
+                "description": "Proporciona ayuda a mujeres de bajos ingresos para lograr seguridad económica, salarios vivibles, cuidado infantil asequible, oportunidades de igual salario, educación y capacitación laboral.",
+                "location": "1901 East Asbury Ave, Denver, CO 80208",
+                "phone": "(303) 285-2960",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://cdle.colorado.gov/wfc"
+                }
+              },
+              "volunteersOfAmericaColorado": {
+                "name": "Volunteers of America Colorado",
+                "link": "https://www.voacolorado.org/",
+                "description": "Proporciona servicios a quienes lo necesiten, incluyendo vivienda, alimentos y ropa.",
+                "location": "2660 Larimer St. Denver, CO 80205",
+                "phone": "(303) 297-0408",
+                "button": {
+                  "text": "VER SITIO WEB",
+                  "link": "https://www.voacolorado.org/"
+                }
               }
             }
           }
