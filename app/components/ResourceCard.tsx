@@ -17,14 +17,17 @@ interface ResourceCardProps {
 
 const styles = {
   card: 'p-5 text-black space-y-3',
-  linkTitle: 'font-bold hover:underline',
-  grid: 'grid grid-cols-5 gap-x-10 leading-loose p-1',
+  linkTitle: 'text-[#EB9A60] md:text-black text-base font-bold hover:underline',
+  grid: 'grid md:grid-cols-5 gap-x-10 leading-loose p-1',
   description: 'col-span-3',
   flex: 'col-span-2 flex flex-col',
   boldText: 'font-bold',
   phoneMargin: 'mb-4',
   button:
-    'w-full self-center bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
+    'hidden md:block w-full self-center bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
+  mobileButton:
+    'block mx-auto bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-4 rounded',
+  mobileBtnBlock: 'block md:hidden w-full h-fit',
 };
 
 const ResourceCard = ({ resource, translationPath }: ResourceCardProps) => {
@@ -67,6 +70,16 @@ const ResourceCard = ({ resource, translationPath }: ResourceCardProps) => {
             {resource.button.text}
           </a>
         </div>
+      </div>
+      <div className={styles.mobileBtnBlock}>
+        <a
+          id='link'
+          href={resource.button.link}
+          target='_blank'
+          className={styles.mobileButton}
+        >
+          {resource.button.text}
+        </a>
       </div>
     </Card>
   );

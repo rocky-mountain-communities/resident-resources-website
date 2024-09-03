@@ -31,7 +31,7 @@ export default function ResourcePage({ slug }: { slug: string }) {
       <Link href='/' className='hover:underline'>
         {t('resources.backToResources')}
       </Link>
-      <section className='flex flex-row py-5'>
+      <section className='flex flex-col md:flex-row py-5'>
         <div id='sidebar' className='basis-5/12'>
           <h1 className='text-2xl font-bold'>
             {t(`resources.categories.${slug}.name`)}
