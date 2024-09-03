@@ -2,9 +2,10 @@
 import { redirect } from 'next/navigation';
 import Link from 'next/link';
 import ResourcesSection from '@/app/components/ResourcesSection';
-// import ResourcesSidebar from '@/app/components/ResourcesSideBar';
+import ResourcesSidebar from '@/app/components/ResourcesSideBar';
 import translations from '@/public/locales/en.json';
 import { useTranslation } from 'react-i18next';
+import { extractResourcesFromCategory } from '@/app/utils/extractResources';
 import {
   ResourceCategories,
   Subcategory,
@@ -23,6 +24,8 @@ export default function ResourcePage({ slug }: { slug: string }) {
     redirect('/');
   }
 
+  const extractedResources = extractResourcesFromCategory(category);
+
   return (
     <main className='text-white '>
       <Link href='/' className='hover:underline'>
@@ -33,7 +36,7 @@ export default function ResourcePage({ slug }: { slug: string }) {
           <h1 className='text-2xl font-bold'>
             {t(`resources.categories.${slug}.name`)}
           </h1>
-          {/* <ResourcesSidebar resources={category.resources} /> */}
+          <ResourcesSidebar resources={extractedResources} />
         </div>
         <div className='w-full'>
           {Object.keys(category.subcategories).map((key: string) => {
