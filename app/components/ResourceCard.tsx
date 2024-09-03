@@ -21,7 +21,6 @@ const styles = {
   grid: 'grid md:grid-cols-5 gap-x-10 leading-loose p-1',
   description: 'col-span-3',
   flex: 'col-span-2 flex flex-col',
-  boldText: 'font-bold',
   phoneMargin: 'mb-4',
   button:
     'hidden md:block w-full self-center bg-[#FFB47F] hover:bg-[#FF9244] text-center font-medium py-2 px-10 rounded',
@@ -49,16 +48,17 @@ const ResourceCard = ({ resource, translationPath }: ResourceCardProps) => {
         </p>
         <div className={styles.flex}>
           {resource.location && (
-            <p id='location' className={styles.boldText}>
-              Location: {resource.location}
+            <p id='location'>
+              <strong>Location:</strong>
+              <br />
+              {resource.location}
             </p>
           )}
           {resource.phone && (
-            <p
-              id='phone'
-              className={`${styles.boldText} ${styles.phoneMargin}`}
-            >
-              Phone: {resource.phone}
+            <p id='phone' className={`${styles.phoneMargin}`}>
+              <strong>Phone:</strong>
+              <br />
+              {resource.phone}
             </p>
           )}
           <a
