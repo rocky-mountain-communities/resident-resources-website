@@ -440,6 +440,946 @@
             }
           }
         }
+      },
+      "health-and-wellness": {
+        "name": "Health & Wellness",
+        "subcategories": {
+          "addictionAndRecovery": {
+            "name": "Addiction & Recovery",
+            "link": "/resources/health-and-wellness#addiction-and-recovery",
+            "entries": {
+              "advocatesForRecovery": {
+                "name": "Advocates for Recovery",
+                "link": "https://advocatesforrecovery.org/",
+                "description": "Offers support and services to individuals and family members suffering from active addiction, as well as the growing pains of early recovery.",
+                "location": "Online",
+                "phone": "(303) 733-4088",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://advocatesforrecovery.org/"
+                }
+              },
+              "stoutStreetFoundation": {
+                "name": "Stout Street Foundation",
+                "link": "https://www.stoutstreet.org/",
+                "description": "The Stout Street Foundation provides addiction and recovery resources to individuals and families in need.",
+                "location": "7251 East 49th Avenue Commerce City CO 80022",
+                "phone": "(866) 939-1734",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.stoutstreet.org/"
+                }
+              },
+              "treatmentLocator": {
+                "name": "Treatment Locator",
+                "link": "https://findtreatment.gov/",
+                "description": "Find various treatment options for substance abuse and mental health.",
+                "location": "Online",
+                "phone": "(877)-726-4727",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://findtreatment.gov/"
+                }
+              }
+            }
+          },
+          "counselingAndMentalHealth": {
+            "name": "Counseling and Mental Health",
+            "link": "/resources/health-and-wellness#counseling-and-mental-health",
+            "entries": {
+              "coloradoCrisisServices": {
+                "name": "Colorado Crisis Services",
+                "link": "https://coloradocrisisservices.org/",
+                "description": "Support and counseling services.",
+                "location": "Online",
+                "phone": "(844) 493-8255",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://coloradocrisisservices.org/"
+                }
+              },
+              "coloradoCoalitionAgainstSexualAssault": {
+                "name": "Colorado Coalition Against Sexual Assault",
+                "link": "https://www.ccasa.org/",
+                "description": "The collective voice of rape crisis advocates across the state of Colorado.",
+                "location": "1330 Fox Street, Suite 2 PO Box 40350 Denver, CO 80204",
+                "phone": "(303) 839-9999",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.ccasa.org/"
+                }
+              },
+              "crisisSupportSuicideAndCrisisLifeline": {
+                "name": "Crisis Support Suicide and Crisis Lifeline",
+                "link": "https://988lifeline.org/",
+                "description": "Provides 24/7, free and confidential support for people in distress, prevention and crisis resources for you or your loved ones, and best practices for professionals in the United States.",
+                "location": "Online",
+                "phone": "988",
+                "button": {
+                  "text":"VIEW WEBSITE",
+                  "link": "https://988lifeline.org/"
+                }
+              },
+              "mileHighBehavioralHealthcare": {
+                "name": "Mile High Behavioral Healthcare",
+                "link": "https://www.milehighbehavioralhealthcare.org/",
+                "description": "Offers individuals and families recovery from trauma and substance use, mental health challenges, homelessness, woman & families, LGBTQ/Transgender support.",
+                "location": "4242 Delaware St. Denver, Co. 80216",
+                "phone": "(303) 825-8113",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.milehighbehavioralhealthcare.org/"
+                }
+              },
+              "paragonBehavioralHealthConnections": {
+                "name": "Paragon Behavioral Health Connections",
+                "link": "https://www.paragonbhc.com/",
+                "description": "Offers telehealth services and in-home support to individuals and families. Common topics include depression, substance use, grief and loss, self-injury, suicidal thoughts, bullying, stress, parenting concerns, trauma, drugs and alcohol, relationship problems, family crisis, anxiety, domestic violence, disability, concerns for a friend or family member and resource questions. Accepts Medicaid and offers free screening services.",
+                "location": "12567 W. Cedar Dr., Lakewood, Co. 80228",
+                "phone": "(303) 691-6095",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.paragonbhc.com/"
+                }
+              },
+              "peopleHouse": {
+                "name": "People House",
+                "link": "https://www.peoplehouse.org/",
+                "description": "Affordable counseling providing holistic mental health therapy and a variety of resources such as psychology, marriage, and family therapy. Therapy is offered on a sliding fee scale.",
+                "location": "3035 W. 25th Ave., Denver, Co. 80211",
+                "phone": "(303) 480-5130",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.peoplehouse.org/"
+                }
+              },
+              "wellpower": {
+                "name": "Wellpower",
+                "link": "https://www.wellpower.com/",
+                "description": "Offers telehealth services and in-home support to individuals and families. Common topics include depression, substance use, grief and loss, self-injury, suicidal thoughts, bullying, stress, parenting concerns, trauma, drugs and alcohol, relationship problems, family crisis, anxiety, domestic violence, disability, concerns for a friend or family member and resource questions. Accepts Medicaid and offers free screening services.",
+                "location": "Varies",
+                "phone": "(303) 504-7900",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.wellpower.com/"
+                }
+              }
+            }
+          },
+          "dental": {
+            "name": "Dental",
+            "link": "/resources/health-and-wellness#dental",
+            "entries": {
+              "coloradoDentalAssociation": {
+                "name": "Colorado Dental Association",
+                "link": "https://cdaonline.org/",
+                "description": "Offers dental care on a sliding fee scale to individuals who are unable to afford treatment. Several of these organizations have financial and residency requirements. Others are established to help a certain portion of the population (i.e. children, the homeless, people with disabilities, etc.).",
+                "location": "8301 East Prentice Avenue Suite 400 Greenwood Village CO 80111",
+                "phone": "(303) 740-6900",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://cdaonline.org/"
+                }
+              },
+              "coloradoMissionofMercy": {
+                "name": "Colorado Mission of Mercy",
+                "link": "https://comom.org/",
+                "description": "Offers a list of dental clinics and health centers throughout the state. Most of these organizations offer dental care on a sliding fee scale based on your financial situation. It is best to contact these clinics directly as some of them have specific qualifying requirements or residency restrictions.",
+                "location": "Online",
+                "phone": "(303) 648-0919",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://comom.org/"
+                }
+              },
+              "martinezMobileDentalClinic": {
+                "name": "Martinez Mobile Dental Clinic",
+                "link": "https://www.martinezdentalclinic.org/",
+                "description": "Offers a list of dental clinics and health centers throughout the state. Most of these organizations offer dental care on a sliding fee scale based on your financial situation. It is best to contact these clinics directly as some of them have specific qualifying requirements or residency restrictions.",
+                "location": "1200 South Wadsworth Boulevard, Lakewood, Co. 80232",
+                "phone": "(303) 945-5231",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.martinezdentalclinic.org/"
+                }
+              },
+              "metroDenverDentalSociety": {
+                "name": "Metro Denver Dental Society",
+                "link": "https://mddsdentist.com/",
+                "description": "Low-income dental resources for children, seniors, Native Americans, homeless, AIDS/HIV patients, veterans, persons with disabilities, orthodontic treatment.",
+                "location": "Various",
+                "phone": "(303) 488-9700",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://mddsdentist.com/"
+                }
+              }
+            }
+          },
+          "disabilityServices": {
+            "name": "Disability Services",
+            "link": "/resources/health-and-wellness#disability-services",
+            "entries": {
+              "autismSocietyOfColorado": {
+                "name": "Autism Society of Colorado",
+                "link": "https://www.autismcolorado.org/",
+                "description": "Connecting connect people with Autism to the resources they need to live full, vibrant, self-actualized lives.",
+                "location": "PO Box 848, Broomfield, CO 80038",
+                "phone": "(720) 214-0794",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.autismcolorado.org/"
+                }
+              },
+              "alliance": {
+                "name": "Alliance",
+                "link": "https://www.alliancecolorado.org/",
+                "description": "A nonprofit, statewide association comprised of Intellectual and Developmental Disability (IDD) case management and provider agencies, businesses serving the IDD community, and disability advocacy organizations.",
+                "location": "1410 Grant Street Suite B-305 Denver, Colorado, 80203",
+                "phone": "(303) 832-1618",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.alliancecolorado.org/"
+                }
+              },
+              "developmentalDisabilitiesResourceCenter": {
+                "name": "Developmental Disabilities Resource Center",
+                "link": "https://www.ddrcco.com/",
+                "description": "Opportunities for People with Intellectual and Developmental Disabilities and their Families to Participate Fully in the Community. Services include: coordination of services, early intervention, family support, adult day services and employment services, therapeutic learning and behaviorla health services.",
+                "location": "11177 W. 8th Ave., Lakewood, CO 80215",
+                "phone": "(303) 233-3363",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.ddrcco.com/"
+                }
+              },
+              "eastersealsColorado": {
+                "name": "Easterseals Colorado",
+                "link": "https://www.easterseals.com/co/",
+                "description": "Creating a future where people with disabilities, their families, and caregivers all have the opportunity to thrive and fully participate in our communities.",
+                "location": "393 S. Harlan St. Suite 250 Lakewood, CO 80226",
+                "phone": "(303) 233-1666",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.easterseals.com/co/"
+                }
+              },
+              "parentToParentOfColorado": {
+                "name": "Parent to Parent of Colorado",
+                "link": "https://www.abilityconnectioncolorado.org/p2p-co/",
+                "description": "Connecting families of sons and daughters with disabilities or special healthcare needs to emotional and informational supports.",
+                "location": "801 Yosemite St. Denver, CO 80230",
+                "phone": "(303) 691-9339",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.abilityconnectioncolorado.org/p2p-co/"
+                }
+              },
+              "theAutismCommunityCenter": {
+                "name": "The Autism Community Center",
+                "link": "https://autismcommunitystore.com/pages/the-autism-community-center",
+                "description": "Providing a safe, supportive, and welcoming environment for individuals and families affected by Autism Spectrum Disorder.",
+                "location": "14095 E Exposition Ave., Aurora, CO 80012",
+                "phone": "(303) 309-3647",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://autismcommunitystore.com/pages/the-autism-community-center"
+                }
+              }
+            }
+          },
+          "hotlines": {
+            "name": "Hotlines",
+            "link": "/resources/health-and-wellness#hotlines",
+            "entries": {
+              "adultProtectiveServices": {
+                "name": "Adult Protective Services",
+                "link": "https://www.colorado.gov/pacific/cdhs/adult-protective-services",
+                "description": "Adult Protective Services (APS) provides vulnerable adults protection from abuse, neglect or exploitation and offers services.",
+                "location": "Online",
+                "phone": "Various throughout Colorado",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.colorado.gov/pacific/cdhs/adult-protective-services"
+                }
+              },
+              "coloradoChildAbuseAndNeglectHotline": {
+                "name": "Colorado Child Abuse and Neglect Hotline",
+                "link": "https://www.colorado.gov/pacific/cdhs/child-abuse-and-neglect",
+                "description": "The Colorado Child Abuse and Neglect Hotline is a toll-free hotline for reporting suspected child abuse and neglect.",
+                "location": "Online",
+                "phone": "(844) 264-5437",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.colorado.gov/pacific/cdhs/child-abuse-and-neglect"
+                }
+              },
+              "hungerFreeHotline": {
+                "name": "Hunger Free Hotline",
+                "link": "https://www.hungerfreecolorado.org/",
+                "description": "The Hunger Free Hotline provides information on food resources and assistance programs.",
+                "location": "Online",
+                "phone": "(855) 855-4626",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.hungerfreecolorado.org/"
+                }
+              },
+              "nationalDomesticViolenceHotline": {
+                "name": "National Domestic Violence Hotline",
+                "link": "https://www.thehotline.org/",
+                "description": "The National Domestic Violence Hotline provides support and resources to individuals experiencing domestic violence.",
+                "location": "Online",
+                "phone": "(800) 799-7233",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.thehotline.org/"
+                }
+              },
+              "nationalSexualAssaultHotline": {
+                "name": "National Sexual Assault Hotline",
+                "link": "https://www.rainn.org/",
+                "description": "The National Sexual Assault Hotline provides support and resources to individuals experiencing sexual assault.",
+                "location": "Online",
+                "phone": "(800) 656-4673",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.rainn.org/"
+                }
+              },
+              "nationalSuicideAndPreventionHotline": {
+                "name": "National Suicide And Prevention Hotline",
+                "link": "https://988lifeline.org/?utm_source=google&utm_medium=web&utm_campaign=onebox",
+                "description": "The National Suicide Prevention Lifeline offers services to talk to a skilled counselor.",
+                "location": "Online",
+                "phone": "988",
+                "button": {
+                  "text":"VIEW WEBSITE",
+                  "link": "https://988lifeline.org/?utm_source=google&utm_medium=web&utm_campaign=onebox"
+                }
+              },
+              "theGayLesbianBisexualAndTransgenderNationalHotline": {
+                "name": "The Gay, Lesbian, Bisexual, and Transgender National Hotline",
+                "link": "https://nationaltoolkit.csw.fsu.edu/resource/gay-lesbian-bisexual-and-transgender-national-hotline-1-888-843-4564/",
+                "description": "The Gay, Lesbian, Bisexual and Transgender National Hotline provide telephone and email peer-counseling, as well as factual information and local resources for cities and towns across the United States. All services are free and confidential.",
+                "location": "Online",
+                "phone": "(888) 843-4564",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://nationaltoolkit.csw.fsu.edu/resource/gay-lesbian-bisexual-and-transgender-national-hotline-1-888-843-4564/"
+                }
+              },
+              "rapeAbuseAndIncestNationalNetwork": {
+                "name": "Rape Abuse And Incest National Network",
+                "link": "https://centers.rainn.org/",
+                "description": "RAINN (Rape, Abuse & Incest National Network) is the nation's largest anti-sexual violence organization. RAINN created and operates the National Sexual Assault Hotline in partnership with more than 1,000 local sexual assault service providers across the country and operates the DoD Safe Helpline for the Department of Defense. RAINN also carries out programs to prevent sexual violence, help survivors, and ensure that perpetrators are brought to justice.",
+                "location": "Various",
+                "phone": "(800) 656-4673",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://centers.rainn.org/"
+                }
+              }
+            }
+          },
+          "miscellaneous": {
+            "name": "Miscellaneous",
+            "link": "/resources/health-and-wellness#miscellaneous",
+            "entries": {
+              "brotherJeffsCulturalCenter": {
+                "name": "Brother Jeff's Cultural Center",
+                "link": "https://brotherjeff.com/",
+                "description": "HIV Prevention Grassroots Initiative, offers HIV education/training, client advocacy, leadership development, support groups, prison re-re-entry, and food pantry.",
+                "location": "2836 Welton Street Denver CO 80205",
+                "phone": "(303) 297-0823",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://brotherjeff.com/"
+                }
+              },
+              "childFirst": {
+                "name": "Child First",
+                "link": "https://www.childfirstcolorado.org/",
+                "description": "Helps struggling families build strong, nurturing relationships that heal and protect young children from the devastating impact of trauma and chronic stress. Child First utilizes a two-generation approach, providing psychotherapy to parents and children together in their homes, and connecting them with the services they need to make healthy child development possible.",
+                "location": "Various",
+                "phone": "(833) 400- 4080",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.childfirstcolorado.org/"
+                }
+              },
+              "healthFirstColorado": {
+                "name": "Health First Colorado",
+                "link": "https://www.healthfirstcolorado.com/",
+                "description": "Health First Colorado (Colorado's Medicaid Program) is public health insurance for Coloradans who qualify. Health First Colorado is funded jointly by a federal-state partnership and is administered by the Department of Health Care Policy & Financing.",
+                "location": "Online",
+                "phone": "(800) 221-3943",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.healthfirstcolorado.com/"
+                }
+              }
+            }
+          }
+        }
+      },
+      "youth-and-education": {
+        "name": "Youth & Education",
+        "subcategories": {
+          "childCareAssistanceAndPrograms": {
+            "name": "Child Care Assistance & Programs",
+            "link": "/resources/youth-and-education#child-care-assistance-and-programs",
+            "entries": {
+              "aPreciousChild": {
+                "name": "A Precious Child",
+                "link": "https://apreciouschild.org/",
+                "description": "Providing resources, opportunities and educational support to disadvantaged and displaced Colorado children and their families.",
+                "location": "7051 W. 118th Ave. Broomfield, CO 80020",
+                "phone": "(303) 466-4272",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://apreciouschild.org/"
+                }
+              },
+              "coloradoChildCareAssistanceProgram": {
+                "name": "Colorado Child Care Assistance Program",
+                "link": "https://cdec.colorado.gov/#!child-care-assistance-program/cu2m",
+                "description": "Childcare assistance program for families that are working, searching for employment or are in training; as well as families that are enrolled in the Colorado Works Program and need childcare services to support their efforts towards self-sufficiency.",
+                "location": "1710 S. Ash St., Denver, CO 80246",
+                "phone": "(800) 799-5876",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://cdec.colorado.gov/#!child-care-assistance-program/cu2m"
+                }
+              },
+              "childcareAssistanceProgramOptions": {
+                "name": "Childcare Assistance Program Options",
+                "link": "https://cdec.colorado.gov/colorado-child-care-assistance-program-for-families",
+                "description": "Provides childcare assistance to families needing childcare services to support their efforts toward self-sufficiency.",
+                "location": "11860 Pecos in Westminster",
+                "phone": "(720) 523-2337",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://cdec.colorado.gov/colorado-child-care-assistance-program-for-families"
+                }
+              },
+              "ymcaOutOfSchoolTimeCare": {
+                "name": "YMCA Out of School Time Care",
+                "link": "https://www.denverymca.org/",
+                "description": "The YMCA’s youth development programs are grounded in nearly 150 years of lifting up kids so they can reach their full potential. Our passionate staff work diligently to create a welcoming, fun and safe place where every child can thrive, learn and grow.",
+                "location": "Various",
+                "phone": "(720) 524-2792",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denverymca.org/"
+                }
+              },
+              "ymcaPreschoolProgram": {
+                "name": "YMCA Preschool Program",
+                "link": "https://denverymca.org/programs/youth-programs/y-academy-preschool",
+                "description": "Preschool program that enhances parent to parent staff interaction and engagement. Well-trained staff providing safe, affordable care. Financial assistance available.",
+                "location": "Various",
+                "phone": "(720) 524-2755",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://denverymca.org/programs/youth-programs/y-academy-preschool"
+                }
+              }
+            }
+          },
+          "earlyLearningProgramsAndScholarships": {
+            "name": "Early Learning Programs & Scholarships",
+            "link": "/resources/youth-and-education#early-learning-programs-and-scholarships",
+            "entries": {
+              "claytonEarlyLearning": {
+                "name": "Clayton Early Learning",
+                "link": "https://www.claytonearlylearning.org/",
+                "description": "Early Childhood Learning, Pre-school-in home services that offers a Community Ambassador Program. An innovation hub that fosters thriving, equitable communities by partnering with families to nurture a whole child, whole family approach to the early years, discover what works, and advance systems change.",
+                "location": "3801 Martin Luther King Blvd. Denver, CO 80205",
+                "phone": "(303) 355-4411",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.claytonearlylearning.org/"
+                }
+              },
+              "denverPreschoolProgram": {
+                "name": "Denver Preschool Program",
+                "link": "https://dpp.org/",
+                "description": "Offers tuition credits to every Denver family with a 4-year-old, as well as to a limited number of Denver families with a 3-year-old.",
+                "location": "305 Park Ave. West, Denver, CO 80205",
+                "phone": "(303) 595-4377",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://dpp.org/"
+                }
+              },
+              "mileHighMontessoriEarlyLearningCenters": {
+                "name": "Mile High Montessori Early Learning Centers",
+                "link": "https://milehighearlylearning.org/",
+                "description": "Providing a quality educational experience, inspired by the Montessori approach, for children farthest from resources. Early Childhood Education, Childcare, Day Care, Infants, Toddlers, Preschool. Montessori- inspired approach, STEM education and Head Start programs.",
+                "location": "616 Speer Blvd, Denver, CO 80203",
+                "phone": "(303) 861-2602",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://milehighearlylearning.org/"
+                }
+              },
+              "theHOPECenter": {
+                "name": "The HOPE Center",
+                "link": "https://www.hopecenterinc.org/",
+                "description": "Offers early childhood and vocational programs, the Hope Center lays the foundation for children to grow and adults to thrive.",
+                "location": "3400 Elizabeth St., Denver, CO 80205",
+                "phone": "(303) 388-4801",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.hopecenterinc.org/"
+                }
+              }
+            }
+          },
+          "GED": {
+            "name": "GED",
+            "link": "/resources/youth-and-education#ged",
+            "entries": {
+                "gedTesting@FrontRangeCommunityCollege": {
+                "name": "GED Testing @ Front Range Community College",
+                "link": "https://www.frontrange.edu/",
+                "description": "GED Testing @ Front Range Community College offers GED testing services to individuals in need.",
+                "location": "Various",
+                "phone": "(303) 404-5301",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.frontrange.edu/programs-courses/ged-testing/index.html"
+                }
+              },
+              "theLearningSource": {
+                "name": "The Learning Source",
+                "link": "https://www.thelearningsource.org/classes/ged-classes",
+                "description": "The Learning Source provides educational resources to individuals and families in need.",
+                "location": "929 29th Street Denver, CO 80205",
+                "phone": "(303) 957-2838",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.thelearningsource.org/classes/ged-classes"
+                }
+              }
+            }
+          },
+          "higherEducation": {
+            "name": "Higher Education",
+            "link": "/resources/youth-and-education#higher-education",
+            "entries": {
+              "coloradoDepartmentOfHigherEducation": {
+                "name": "Colorado Department of Higher Education",
+                "link": "https://highered.colorado.gov/",
+                "description": "Various resources for education, scholarships, financial aid, stipends, load forgiveness, grants, ect.",
+                "location": "1600 Broadway, Suite 2200 Denver, CO 80202",
+                "phone": "(303) 862-3001",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://highered.colorado.gov/"
+                }
+              },
+              "communityCollegeOfDenver": {
+                "name": "Community College of Denver",
+                "link": "https://www.ccd.edu/",
+                "description": "Fully accredited two-year college offering in-person, remote and on-line classes.",
+                "location": "800 Curtis Street Denver, CO 80204",
+                "phone": "(303) 556-2600",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.ccd.edu/"
+                }
+              },
+              "frontRangeCommunityCollege": {
+                "name": "Front Range Community College",
+                "link": "https://www.frontrange.edu/",
+                "description": "Fully accredited two-year college offering in-person, remote and on-line classes out of three locations.",
+                "location": "Various",
+                "phone": "(303) 404-5089",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.frontrange.edu/"
+                }
+              },
+              "metropolitanStateUniversityOfDenver": {
+                "name": "Metropolitan State University of Denver",
+                "link": "https://www.msudenver.edu/",
+                "description": "Fully accredited college offering both undergraduate and graduate degree programs.",
+                "location": "890 Auraria Parkway Denver, CO 80204",
+                "phone": "(303) 556-5740",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.msudenver.edu/"
+                }
+              },
+              "universityOfColoradoDenver": {
+                "name": "University of Colorado Denver",
+                "link": "https://www.ucdenver.edu/",
+                "description": "Fully accredited college offering both undergraduate and graduate degree programs.",
+                "location": "1201 Larimer ST. Denver, Co. 80204",
+                "phone": "(303) 315-5969",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.ucdenver.edu/"
+                }
+              },
+              "federalStudentAid": {
+                "name": "Federal Student Aid",
+                "link": "https://studentaid.gov/h/apply-for-aid/fafsa",
+                "description": "Federal Student Aid, a part of the U.S. Department of Education, is the largest provider of student financial aid in the nation. At the office of Federal Student Aid, our more than 1,300 employees help make college education possible for every dedicated mind by providing more than $120 billion in federal grants, loans, and work-study funds each year to more than 13 million students paying for college or career school.",
+                "location": "Online",
+                "phone": "(800) 433-3243",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://studentaid.gov/h/apply-for-aid/fafsa"
+                }
+              }
+            }
+          }
+        }
+      },
+      "additional-resources": {
+        "name": "Additional Resources",
+        "subcategories": {
+          "clothing": {
+            "name": "Clothing",
+            "link": "/resources/additional-resources#clothing",
+            "entries": {
+              "bridgetsBoutique": {
+                "name": "Bridget's Boutique",
+                "link": "https://tgpdenver.org/what-we-do/bridgets-boutique-old.html",
+                "description": "Bridget's Boutique is a non-profit organization that provides clothing to individuals in need.",
+                "location": "Call for location",
+                "phone": "(303) 996-9046",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://tgpdenver.org/what-we-do/bridgets-boutique-old.html"
+                }
+              },
+              "clothesToKids": {
+                "name": "Clothes To Kids",
+                "link": "https://clothestokidsdenver.org/",
+                "description": "Provides new and quality used clothing to students from low-income or in-crisis families in the Denver Metro Area, free of charge.",
+                "location": "2890 S. Colorado Blvd. Denver, CO 80222",
+                "phone": "(720) 379-4630",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://clothestokidsdenver.org/"
+                }
+              },
+              "dressForSuccess": {
+                "name": "Dress For Success",
+                "link": "https://denver.dressforsuccess.org/",
+                "description": "The mission for Dress for Success is to empower women to achieve economic independence by providing a network of support, professional attire and the development tools to help women thrive in work and in life.",
+                "location": "2594 South Colorado Boulevard Denver, Colorado 80222",
+                "phone": "(303) 832-1889",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://denver.dressforsuccess.org/"
+                }
+              }
+            }
+          },
+          "LGBTQ": {
+            "name": "LGBTQ",
+            "link": "/resources/additional-resources#lgbtq",
+            "entries": {
+              "oneColorado": {
+                "name": "One Colorado",
+                "link": "https://one-colorado.org/",
+                "description": "The state’s leading advocacy organization dedicated to advancing equality for lesbian, gay, bisexual, transgender, and queer (LGBTQ+) Coloradans and their families.",
+                "location": "303 E. 17th Ave. Denver, CO. 80203",
+                "phone": "(303) 396-6170",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://one-colorado.org/"
+                }
+              },
+              "theCenter": {
+                "name": "The Center",
+                "link": "https://lgbtqcolorado.org/",
+                "description": "Gives voice to Colorado's lesbian, gay, bisexual, transgender, and queer (LGBTQ) community and playing a pivotal role in statewide initiatives to reduce harassment and discrimination. Provides mental health, crisis, youth programs/tutoring, adult & young adult programs, transgender support, legal support and more!",
+                "location": "1301 E. Colfax Ave. Denver, CO 80218",
+                "phone": "(303) 733-7743",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://lgbtqcolorado.org/"
+                }
+              },
+              "transgenderCenterOfTheRockies": {
+                "name": "Transgender Center of The Rockies",
+                "link": "https://www.transgendercenteroftherockies.org/",
+                "location": "3469 S. Federal Blvd. Sheridan, Co. 80110",
+                "phone": "(303) 761-0200",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.transgendercenteroftherockies.org/"
+                }
+              }
+            }
+          },
+          "miscellaneous": {
+            "name": "Miscellaneous",
+            "link": "/resources/additional-resources#miscellaneous",
+            "entries": {
+              "211": {
+                "name": "211",
+                "link": "https://211colorado.communityos.org/",
+                "description": "211 is a confidential and multilingual service connecting people to vital resources across the state. No matter where you live in Colorado, you can find information about resources in your local community.",
+                "location": "Online",
+                "phone": "211",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://211colorado.communityos.org/"
+                }
+              },
+              "benefitsInAction": {
+                "name": "Benefits In Action",
+                "link": "https://benefitsinaction.org/",
+                "description": "Striving to increase understanding, access, and utilization of healthcare resources. Our team of navigators works with individuals to help them recognize the health-related benefits they qualify for, apply to those benefits, and utilize them as effectively as possible.",
+                "location": "12157 W Cedar Dr, Suite 100 Lakewood, CO 80228",
+                "phone": "(720) 221-8354",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://benefitsinaction.org/"
+                }
+              },
+              "bioOneDenverMetroHoarding": {
+                "name": "Bio-One Denver Metro Hoarding",
+                "link": "https://www.bioonecolorado.com/hoarding/",
+                "description": "24/7 Hoarding Cleanup help from a local Colorado company with unmatched compassion, discretion, and experience for the most challenging hoarding jobs.",
+                "location": "303 S. Broadway STE. 200-482 Dener, CO. 80209",
+                "phone": "(720) 365-2393",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.bioonecolorado.com/hoarding/"
+                }
+              },
+              "coloradoFamilyLifeCenter": {
+                "name": "Colorado Family Life Center",
+                "link": "https://www.coloradofamilylife.org/",
+                "description": "Faith-based, non-profit ministry that serves anyone, anywhere, anytime with access to FREE classes about pregnancy, birth, first year, toddlerhood, general parenting, life skills, fatherhood, co-parenting, relationship skills, special circumstances, and simple Bible studies for those who are interested.",
+                "location": "651 Chambers Road, Suite 204, Aurora, Co. 80011",
+                "phone": "(303) 366-1072",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.coloradofamilylife.org/"
+                }
+              },
+              "coloradoLifelineAndAffordableConnectivityProgram": {
+                "name": "Colorado Lifeline and Affordable Connectivity Program",
+                "link": "https://www.truconnect.com/states/colorado",
+                "description": "Offers a monthly discount of up to $30 (up to $75 if you’re living on qualified Tribal land) on your monthly broadband services if your household is eligible. Part of the ACP benefits include a one-time discount of up to $100 toward an internet-capable connected device like a tablet, laptop, or desktop computer. You are required to pay a co-pay between $10-$50 towards the connected device.",
+                "location": "Online",
+                "phone": "(303) 894-7855",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.truconnect.com/states/colorado"
+                }
+              },
+              "denverHumanServices": {
+                "name": "Denver Human Services",
+                "link": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Denver-Human-Services",
+                "description": "Provides food assistance, Medicaid, financial assistance with rent and childcare assistance, energy bills, along with other services.",
+                "location": "2929 W. 10th Ave, Denver CO 80204",
+                "phone": "(720) 944-4347",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Denver-Human-Services"
+                }
+              },
+              "familyTree": {
+                "name": "Family Tree",
+                "link": "https://www.thefamilytree.org/",
+                "description": "Committed to addressing the interconnected issues of child abuse, domestic violence and homelessness. Family Tree works alongside people affected by child abuse, domestic violence and homelessness throughout their journey to safety and economic independence, providing emergency residential services, case management and advocacy, therapeutic services, outreach support, housing search and placement, education and employment support, among many other services.",
+                "location": "Various",
+                "phone": "(303) 422-2133",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.thefamilytree.org/"
+                }
+              },
+              "ministryOutreachCenter": {
+                "name": "Ministry Outreach Center",
+                "link": "https://denverrescuemission.org/who-we-are/locations/ministry-outreach-center/",
+                "description": "Provides food, clothing, furniture, and household items to those in need.",
+                "location": "5725 E 39th Ave, Denver, CO 80207",
+                "phone": "(303) 297-1815",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://denverrescuemission.org/who-we-are/locations/ministry-outreach-center/"
+                }
+              },
+              "serviciosDeLaRaza": {
+                "name": "Servicios De La Raza",
+                "link": "https://serviciosdelaraza.org/",
+                "description": "Focuses on building and cultivating a thriving Colorado Latino community, offers employment/financial coaching, HIV/STI Services, Victim Services, healthcare/behavioral access support, re-entry services (help previously imprisoned folks gain employment, education skills, mentorship).",
+                "location": "Various",
+                "phone": "(303) 458-5851",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://serviciosdelaraza.org/"
+                }
+              },
+              "theGatheringPlace": {
+                "name": "The Gathering Place",
+                "link": "https://tgpdenver.org/",
+                "description": "offers services to combat poverty and address the impacts of marginalization and oppression that are often contributing factors to poverty or homelessness. By offering low-barrier access to a broad range of basic necessities and wrap-around care options, TGP guides women, transgender and non-binary individuals, and children living in poverty from a place of crisis and instability to one of stability and security.",
+                "location": "1535 High St. Denver, CO 80218",
+                "phone": "(303) 321-4198",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://tgpdenver.org/"
+                }
+              },
+              "theSalvationArmy": {
+                "name": "The Salvation Army",
+                "link": "https://www.salvationarmyusa.org/usn/location-search?location=denver",
+                "description": "Various services for addiction and recovery, homelessness, community and food programs, prison and worship programs, youth programs, life skills, assistance programs, etc.",
+                "location": "Various",
+                "phone": "(303) 860-5460",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.salvationarmyusa.org/usn/location-search?location=denver"
+                }
+              },
+              "theWomensFoundationOfColorado": {
+                "name": "The Women's Foundation of Colorado",
+                "link": "https://cdle.colorado.gov/wfc",
+                "description": "Provides help to low-income women to achieve economic security, livable wages, affordable childcare, equal pay opportunities, education, and job training.",
+                "location": "1901 East Asbury Ave, Denver, CO 80208",
+                "phone": "(303) 285-2960",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://cdle.colorado.gov/wfc"
+                }
+              },
+              "volunteersOfAmericaColorado": {
+                "name": "Volunteers of America Colorado",
+                "link": "https://www.voacolorado.org/",
+                "description": "Provides services to those in need, including housing, food, and clothing.",
+                "location": "2660 Larimer St. Denver, CO 80205",
+                "phone": "(303) 297-0408",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.voacolorado.org/"
+                }
+              }
+            }
+          },
+          "petResources": {
+            "name": "Pet Resources",
+            "link": "/resources/additional-resources#pet-resources",
+            "entries": {
+              "animalShelters": {
+                "name": "Animal Shelters",
+                "link": "https://www.denvergov.org/content/denvergov/en/denver-animal-shelter.html",
+                "description": "Provides shelter and care for lost and abandoned animals, enforces Denver County animal ordinances, and provides pet adoptions.",
+                "location": "Various",
+                "phone": "Various throughout Colorado",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/content/denvergov/en/denver-animal-shelter.html"
+                }
+              },
+              "coloradoPetPantry": {
+                "name": "Colorado Pet Pantry",
+                "link": "https://www.coloradopetpantry.org/",
+                "description": "Colorado Pet Pantry is a pet food bank that helps families feed their pets.",
+                "location": "Various throughout Colorado",
+                "phone": "Various throughout Colorado",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.coloradopetpantry.org/"
+                }
+              },
+              "petNeeds": {
+                "name": "Pet Needs",
+                "link": "https://www.denvergov.org/Community/Housing/Housing-Homelessness-Guide/Pet-Assistance",
+                "description": "Find temporary shelter for your pet, and get free veterinary care, pet food, and supplies. We also offer some limited shelter options that allow pets to stay with you.",
+                "location": "Various throughout Colorado",
+                "phone": "Various throughout Colorado",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.denvergov.org/Community/Housing/Housing-Homelessness-Guide/Pet-Assistance"
+                }
+              },
+              "pawsCo": {
+                "name": "PawsCo",
+                "link": "https://pawsco.org/temporary-assistance",
+                "description": "PawsCo is a 501(c)3 nonprofit dedicated to reducing pet overpopulation with a comprehensive approach.",
+                "location": "Various throughout Colorado",
+                "phone": "(720) 675-8758",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://pawsco.org/temporary-assistance"
+                }
+              }
+            }
+          },
+          "seniorResources": {
+            "name": "Senior Resources",
+            "link": "/resources/additional-resources#senior-resources",
+            "entries": {
+              "agingAndDisabilityResources": {
+                "name": "Aging and Disability Resources",
+                "link": "https://drcog.org/area-agency-aging/aging-disability-resource-center#:~:text=DRCOG%20is%20one%20of%2014%20ADRC%20sites%20in%20Colorado.&text=Family%20members%2C%20caregivers%2C%20friends%2C,calling%20303%2D480%2D6700",
+                "description": "Provides information and resources for older adults and adults with disabilities.",
+                "location": "1001 17th Street, Suite 700, Denver, CO 80202",
+                "phone": "(303) 480-6700",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://drcog.org/area-agency-aging/aging-disability-resource-center#:~:text=DRCOG%20is%20one%20of%2014%20ADRC%20sites%20in%20Colorado.&text=Family%20members%2C%20caregivers%2C%20friends%2C,calling%20303%2D480%2D6700"
+                }
+              },
+              "alert1": {
+                "name": "Alert-1",
+                "link": "https://www.alert-1.com/",
+                "description": "Offers in-home and mobile medical alert systems for seniors and others looking for the security and protection that a personal emergency button alarm provides. Our affordable, easy to use medical alert pendants, bracelets, and watches offer reliable peace of mind for you or your loved ones, 24/7/365.",
+                "location": "Online",
+                "phone": "(888) 294-7516",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.alert-1.com/"
+                }
+              },
+              "alpineHomecare": {
+                "name": "Alpine Homecare",
+                "link": "https://www.alpinehomecare.com/",
+                "description": "Offers affordable / free for Medicaid clients, non-medical solutions for individuals or couples who need care and support, but prefer to remain at home.",
+                "location": "10200 E. Girard, Bld. A, Suite 118 - Denver, Co 80231",
+                "phone": "(303) 309-6202",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.alpinehomecare.com/"
+                }
+              },
+              "seniorsAssistanceCenter": {
+                "name": "Seniors Assistance Center",
+                "link": "https://seniorassistancecenter.org/",
+                "description": "Promotes the self-sufficiency of older adults in Denver by providing necessity-of-life services with the ultimate goal of helping clients find stable, sustainable living situations.",
+                "location": "4255 Jason St Ste 120 Denver CO 80211",
+                "phone": "(303) 455-9642",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://seniorassistancecenter.org/"
+                }
+              },
+              "seniorsResourceCenter": {
+                "name": "Seniors Resource Center",
+                "link": "https://www.srcaging.org/",
+                "description": "Denver Area’s largest nonprofit dedicated to services for older adults, their families, and their caregivers. Our crucial programs include adult day programs, in-home care, chores, care management, senior advocacy and much more.",
+                "location": "3227 Chase Street Wheat Ridge, Co. 80212",
+                "phone": "(303) 238-8151",
+                "button": {
+                  "text": "VIEW WEBSITE",
+                  "link": "https://www.srcaging.org/"
+                }
+              }
+            }
+          }
+        }
       }
     }
   }
