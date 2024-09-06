@@ -1,22 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { capitalizeWords, formatTitleToId } from '@/app/utils/wordFormat';
-
-export interface Resource {
-  title: string;
-  link: string;
-  description: string;
-}
-
-export interface Category {
-  name: string;
-  data: Resource[];
-}
-
-export interface ResourcesSectionProps {
-  resources: Category[];
-}
+import { ResourcesSectionProps } from '@/app/constants/interfaces';
 
 const styles = {
   list: 'py-5 space-y-2',
@@ -33,6 +20,7 @@ const styles = {
 };
 
 export default function ResourcesSidebar({ resources }: ResourcesSectionProps) {
+  const { t } = useTranslation();
   const [openCategory, setOpenCategory] = useState('');
 
   const toggleCategory = (name: string) => {
@@ -73,17 +61,17 @@ export default function ResourcesSidebar({ resources }: ResourcesSectionProps) {
                 />
               </svg>
             </span>
-            {capitalizeWords(category.name)}
+            {capitalizeWords(t(category.name))}
           </h3>
           <ul className={styles.nestedList(openCategory === category.name)}>
             {category.data.map((resource, index) => (
               <li key={index} className={styles.listItemInner}>
                 <a
-                  onClick={(e) => handleScrollToElement(e, resource.title)}
-                  href={`#${formatTitleToId(resource.title)}`}
+                  onClick={(e) => handleScrollToElement(e, resource.name)}
+                  href={`#${formatTitleToId(resource.name)}`}
                   className={styles.link}
                 >
-                  {resource.title}
+                  {t(resource.name)}
                 </a>
               </li>
             ))}

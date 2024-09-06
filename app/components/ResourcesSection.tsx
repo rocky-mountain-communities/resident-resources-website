@@ -16,13 +16,12 @@ export default function ResourcesSection({
 }: ResourcesSectionProps) {
   return (
     <div>
-      <h2 id={`${subcategoryKey}`} className='font-bold text-xl my-4'>
+      <h2 id={`${formatTitleToId(title)}`} className='font-bold text-xl my-4'>
         {capitalizeWords(title)}
       </h2>
       <div>
         {Object.keys(resources).map((resourceKey: string) => {
           const resource = resources[resourceKey];
-
           return (
             <div
               id={formatTitleToId(resource.name)}

@@ -24,3 +24,13 @@ export interface ResourceCategories {
     };
   };
 }
+
+export interface Category {
+  name: string;
+  data: Resource[];
+  subcategoryKey: string;
+}
+
+export interface ResourcesSectionProps {
+  resources: Category[];
+}
