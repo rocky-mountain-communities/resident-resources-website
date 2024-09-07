@@ -42,7 +42,7 @@ const CategoriesCard = ({ category }: CategoriesCardProps) => {
           <Link
             key={`${name}-${subcategory.name}`}
             href={subcategory.link}
-            className='p-3 w-full bg-[#feffff] border rounded-lg hover:underline text-center font-medium'
+            className='p-3 w-full bg-[#feffff] border rounded-lg hover:underline text-center font-medium truncate'
           >
             {' '}
             {t(`resources.categories.${path}.subcategories.${key}.name`)}{' '}
