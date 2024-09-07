@@ -27,18 +27,22 @@ const CategoriesCard = ({ category }: CategoriesCardProps) => {
   const { t } = useTranslation();
   const { name, path, subcategories } = category;
 
+  const firstThreeSubcategories = Object.fromEntries(
+    Object.entries(subcategories).slice(0, 3)
+  );
+
   return (
     <Card className='flex flex-col space-y-2 items-center p-8'>
       <h2 className='font-bold text-xl mb-4'>
         {t(`resources.categories.${path}.name`)}
       </h2>
-      {Object.keys(subcategories).map((key: string) => {
+      {Object.keys(firstThreeSubcategories).map((key: string) => {
         const subcategory = subcategories[key as keyof typeof subcategories];
         return (
           <Link
             key={`${name}-${subcategory.name}`}
             href={subcategory.link}
-            className='p-3 w-full bg-[#feffff] border rounded-lg hover:underline text-center font-medium'
+            className='p-3 w-full bg-[#feffff] border rounded-lg hover:underline text-center font-medium truncate'
           >
             {' '}
             {t(`resources.categories.${path}.subcategories.${key}.name`)}{' '}
