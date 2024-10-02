@@ -90,4 +90,4 @@ Below we have common terminology used is software development and important for 
 - **Pull Request**: A feature in GitHub that allows developers to propose changes to a codebase, enabling others to review, discuss, and merge those changes into the main branch.
 - **GitHub Issue**: A tool within GitHub for tracking bugs, tasks, feature requests, or any other work related to a project, allowing team members to discuss and manage progress.
 
-
+## TODO
